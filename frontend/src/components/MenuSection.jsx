@@ -9,7 +9,7 @@ function MenuSection({ title, items }) {
           {items.map((item) => (
             <div key={item.id} className="space-y-2">
               <div className=" w-screen relative flex py-2">
-                <h1 className=" font-semibold text-[14px] absolute left-2">{item.name}</h1>
+                <h1 className=" font-semibold text-[14px] absolute tracking-wide left-2">{item.name}</h1>
                 <h1 className=" font-semibold text-[14px] absolute right-12">{item.price}</h1>
               </div>
             </div>
