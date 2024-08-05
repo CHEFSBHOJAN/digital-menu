@@ -1,41 +1,70 @@
-import React, { useState, useEffect } from "react";
-import Header from "./Header";
-import FoodSearch from "./FoodSearch";
-import CategoryTabs from "./CategoryTabs";
-import MenuSection from "./MenuSection";
+import React, { useState, useEffect, useRef } from "react"
+import Header from "./Header"
+import FoodSearch from "./FoodSearch"
+import CategoryTabs from "./CategoryTabs"
+import MenuSection from "./MenuSection"
 
-function MyComponent() {
+function MyComponent({ outlet }) {
   const [menu, setMenu] = useState([]);
-  const [activeCategory, setActiveCategory] = useState("Continental");
+  const [activeCategory, setActiveCategory] = useState("Continental")
+  const itemRefs = useRef({})
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/getmenu")
+    let url
+    if (outlet === "Margao") {
+      url = "http://127.0.0.1:5000/api/getmenumargao"
+    }
+    else {
+      url = "http://127.0.0.1:5000/api/getmenuponda"
+    }
+    fetch(url)
       .then((response) => response.json())
       .then((data) => setMenu(data.dishes))
-      .catch((error) => console.error("Error fetching menu:", error));
-  }, []);
+      .catch((error) => console.error("Error fetching menu:", error))
+  }, [])
 
   const handleCategoryChange = (category) => {
-    setActiveCategory(category);
-  };
+    setActiveCategory(category)
+  }
 
-  // Filter menu items based on active category
+  const handleItemSelect = (item) => {
+    const itemCategory = menu.find(
+      (cat) => Object.values(cat.subcategory).flat().some((i) => i.id === item.id)
+    )
+
+    if (itemCategory) {
+      setActiveCategory(itemCategory.category)
+
+      setTimeout(() => {
+        const itemRef = itemRefs.current[item.id]
+        if (itemRef) {
+          itemRef.scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+            inline: "nearest"
+          })
+        }
+      }, 100)
+    }
+  }
+
   const filteredMenu = menu.find(
     (item) => item.category.toLowerCase() === activeCategory.toLowerCase()
-  );
+  )
 
   return (
-    <main className="relative flex overflow-hidden flex-col px-6 py-10 mx-auto w-full tracking-tight max-w-[480px] ">
+    <main className="relative flex overflow-hidden flex-col px-6 py-10 mx-auto w-screen tracking-tight max-w-[480px] ">
       <div className=" h-screen w-screen fixed inset-0 -z-10 bg-gradient-to-b from-[#FEEAA0] to-white"></div>
-      <Header />
+      <Header outletName={outlet} />
       <h1 className="mt-4 text-lg font-bold text-red-900">
         <span className="text-black">Choose </span>
         <br />
         <span className="text-black">Your Favorite </span>Food
       </h1>
-      <FoodSearch />
+      <FoodSearch menu={menu} onSelectItem={handleItemSelect} />
       <CategoryTabs
         categories={menu.map((item) => item.category)}
+        activeCategory={activeCategory}
         onCategoryChange={handleCategoryChange}
       />
       <h2 className="self-start mt-5 text-xl font-bold text-black">
@@ -49,6 +78,7 @@ function MyComponent() {
               key={index}
               title={subcategory}
               items={filteredMenu.subcategory[subcategory]}
+              itemRefs={itemRefs}
             />
           ))
         ) : (
@@ -56,7 +86,7 @@ function MyComponent() {
         )}
       </div>
     </main>
-  );
+  )
 }
 
-export default MyComponent;
+export default MyComponent
