@@ -53,5 +53,3 @@ def PondaMenu():
         print(error_message)
         return jsonify({'error': error_message}), 500
 
-if __name__ == '__main__':
-    app.run(debug=True)
