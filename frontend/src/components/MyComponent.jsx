@@ -12,10 +12,10 @@ function MyComponent({ outlet }) {
   useEffect(() => {
     let url
     if (outlet === "Margao") {
-      url = "https://digital-menu-nluo.vercel.app/api/getmenumargao"
+      url = "https://digital-menu-6maa.onrender.com/api/getmenumargao"
     }
     else {
-      url = "https://digital-menu-nluo.vercel.app/api/getmenuponda"
+      url = "https://digital-menu-6maa.onrender.com/api/getmenuponda"
     }
     fetch(url)
       .then((response) => response.json())
