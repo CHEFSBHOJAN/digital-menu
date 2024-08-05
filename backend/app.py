@@ -5,7 +5,9 @@ import os
 
 app = Flask(__name__)
 
-CORS(app, supports_credentials=True, allow_headers="*", origins="*", methods=["OPTIONS", "POST", "GET"])
+CORS(app, supports_credentials=True, allow_headers="*", origins="*", methods=["OPTIONS", "POST","GET"])
+CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
+
 
 @app.route('/api/getmenumargao', methods=['GET'])
 def MargaoMenu():
