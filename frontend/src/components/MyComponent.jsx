@@ -1,15 +1,18 @@
 import React, { useState, useEffect, useRef } from "react"
+import Loading from "./loading"
 import Header from "./Header"
 import FoodSearch from "./FoodSearch"
 import CategoryTabs from "./CategoryTabs"
 import MenuSection from "./MenuSection"
 
 function MyComponent({ outlet }) {
-  const [menu, setMenu] = useState([]);
+  const [menu, setMenu] = useState([])
   const [activeCategory, setActiveCategory] = useState("Continental")
   const itemRefs = useRef({})
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
+    setLoading(true)
     let url
     if (outlet === "Margao") {
       url = "https://chefs-bhojan-website-backend-5v3d.onrender.com/api/getmenumargao"
@@ -19,7 +22,10 @@ function MyComponent({ outlet }) {
     }
     fetch(url)
       .then((response) => response.json())
-      .then((data) => setMenu(data.dishes))
+      .then((data) => {
+        setMenu(data.dishes)
+        setLoading(false)
+      })
       .catch((error) => console.error("Error fetching menu:", error))
   }, [])
 
@@ -71,21 +77,27 @@ function MyComponent({ outlet }) {
         {activeCategory}
       </h2>
       <hr className="shrink-0 h-px border-white" />
-      <div className="flex flex-col gap-5 mt-2.5 mb-20 w-full">
-        {filteredMenu?.subcategory ? (
-          Object.keys(filteredMenu.subcategory).map((subcategory, index) => (
-            <MenuSection
-              key={index}
-              title={subcategory}
-              items={filteredMenu.subcategory[subcategory]}
-              itemRefs={itemRefs}
-            />
-          ))
-        ) : (
-          <div>No items available</div>
-        )}
-      </div>
-    </main>
+      {loading ? (
+        <div className="w-full flex justify-center items-center">
+          <Loading />
+        </div>
+      ) : (
+        <div className="flex flex-col gap-5 mt-2.5 mb-20 w-full">
+          {filteredMenu?.subcategory ? (
+            Object.keys(filteredMenu.subcategory).map((subcategory, index) => (
+              <MenuSection
+                key={index}
+                title={subcategory}
+                items={filteredMenu.subcategory[subcategory]}
+                itemRefs={itemRefs}
+              />
+            ))
+          ) : (
+            <div>No items available</div>
+          )}
+        </div>
+      )}
+    </main >
   )
 }
 
