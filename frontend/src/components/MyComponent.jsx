@@ -26,7 +26,10 @@ function MyComponent({ outlet }) {
         setMenu(data.dishes)
         setLoading(false)
       })
-      .catch((error) => console.error("Error fetching menu:", error))
+      .catch((error) => {
+        console.error("Error fetching menu:", error)
+        setLoading(false)
+      })
   }, [])
 
   const handleCategoryChange = (category) => {
