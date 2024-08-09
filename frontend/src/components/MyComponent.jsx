@@ -15,10 +15,10 @@ function MyComponent({ outlet }) {
     setLoading(true)
     let url
     if (outlet === "Margao") {
-      url = "https://digital-menu-freelance.onrender.com/api/getmenumargao"
+      url = "https://chefs-bhojan-website-backend-5v3d.onrender.com/api/getmenumargao"
     }
     else {
-      url = "https://digital-menu-freelance.onrender.com/api/getmenuponda"
+      url = "https://chefs-bhojan-website-backend-5v3d.onrender.com/api/getmenuponda"
     }
     fetch(url)
       .then((response) => response.json())
