@@ -18,7 +18,7 @@ function MyComponent({ outlet }) {
       url = "https://chefs-bhojan-website-backend-5v3d.onrender.com/api/getmenumargao"
     }
     else {
-      url = "http://127.0.0.1:8000/api/getmenuponda"
+      url = "https://chefs-bhojan-website-backend-5v3d.onrender.com/api/getmenuponda"
     }
     fetch(url)
       .then((response) => response.json())
