@@ -11,7 +11,7 @@ function FoodSearch({ menu, onSelectItem }) {
         .flatMap((item) => item.subcategory
           ? Object.values(item.subcategory).flat()
           : [])
-        .filter((item) => item.title.toLowerCase().includes(lowercasedTerm))
+        .filter((item) => item.name.toLowerCase().includes(lowercasedTerm))
       setFilteredItems(filtered)
     } else {
       setFilteredItems([])
@@ -68,7 +68,7 @@ function FoodSearch({ menu, onSelectItem }) {
               onClick={() => handleSelect(item)}
             >
               <div className="flex justify-between">
-                <span>{item.title}</span>
+                <span>{item.name}</span>
                 <span>{item.price}</span>
               </div>
             </div>

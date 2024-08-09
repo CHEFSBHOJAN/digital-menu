@@ -7,7 +7,7 @@ import MenuSection from "./MenuSection"
 
 function MyComponent({ outlet }) {
   const [menu, setMenu] = useState([])
-  const [activeCategory, setActiveCategory] = useState("Continental")
+  const [activeCategory, setActiveCategory] = useState("Starters")
   const itemRefs = useRef({})
   const [loading, setLoading] = useState(false)
 
@@ -18,7 +18,7 @@ function MyComponent({ outlet }) {
       url = "https://chefs-bhojan-website-backend-5v3d.onrender.com/api/getmenumargao"
     }
     else {
-      url = "https://chefs-bhojan-website-backend-5v3d.onrender.com/api/getmenuponda"
+      url = "http://127.0.0.1:8000/api/getmenuponda"
     }
     fetch(url)
       .then((response) => response.json())
@@ -31,6 +31,8 @@ function MyComponent({ outlet }) {
         setLoading(false)
       })
   }, [])
+
+  console.log(menu)
 
   const handleCategoryChange = (category) => {
     setActiveCategory(category)

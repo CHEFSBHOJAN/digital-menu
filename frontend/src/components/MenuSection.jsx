@@ -8,7 +8,7 @@ function MenuSection({ title, items, itemRefs }) {
         {items.map((item) => (
           <div key={item.id} ref={(el) => { if (el) itemRefs.current[item.id] = el; }} className="flex justify-between items-center w-full">
             <div className="relative flex-1 mr-4 ">
-              <h1 className="font-semibold text-[14px] break-words w-4/6">{item.title}</h1>
+              <h1 className="font-semibold text-[14px] break-words w-4/6">{item.name}</h1>
             </div>
             <h1 className="absolute right-4 font-semibold text-[14px]">{item.price}</h1>
           </div>
