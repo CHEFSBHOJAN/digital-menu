@@ -1,678 +1,1679 @@
 [
     {
-        "category": "Chinese",
+        "category": "SOUPS",
         "subcategory": {
-            "Soup": [
+            "SOUP": [
                 {
-                    "title": "VEG MANCHOW SOUP",
-                    "description": "CHINESE VEGETERIAN SOUP MADE WITH MIXED VEGETABLES, GARLIC, GINGER, SOYA SAUCE, GROUND PEPPER & FEW OTHER PANTRY INGREDIENTS, THIS SUPER FLAVORFUL MANCHOW SOUP IS SERVED WITH CRISPY FRIED NOODLES.",
+                    "srno": 1,
+                    "name": "VEG MANCHOW SOUP",
                     "price": 90,
-                    "id": "fc5d6b90-25df-4fb9-9974-5b9a089aa868"
+                    "veg_nonveg": "VEG",
+                    "id": "113c9f32-1d53-4598-8c48-78f13e9a88ee"
                 },
                 {
-                    "title": "CHICKEN MANCHOW SOUP",
-                    "description": "CHINESE CHICKEN MANCHOW SOUP MADE WITH VEGGIES AND CHICKEN TOPPED WITH CRISPY FRIED NOODLES.",
+                    "srno": 2,
+                    "name": "CHICKEN MANCHOW SOUP",
                     "price": 100,
-                    "id": "e7957558-aca9-49cb-98d8-8ad50fec941c"
+                    "veg_nonveg": "NON",
+                    "id": "4dcdef4b-9da8-4f24-9bbb-86426d65867a"
                 },
                 {
-                    "title": "VEG SWEET CORN SOUP",
-                    "description": "INDO CHINESE STYLE SOUP MADE WITH MIXED VEGETABLES, SWEET CORN KERNELS, HERBS AND SPICES.",
+                    "srno": 3,
+                    "name": "VEG SWEET CORN SOUP",
                     "price": 90,
-                    "id": "ea931f27-1b58-44d5-a1fa-b08c03ef91c3"
+                    "veg_nonveg": "VEG",
+                    "id": "f8f5e20a-89d7-4398-acea-d471d37fb93a"
                 },
                 {
-                    "title": "CHICKEN SWEET CORN SOUP",
-                    "description": "LITTLE CHUNKS OF CHICKEN COOKED WITH SWEETCORN & STOCK.",
+                    "srno": 4,
+                    "name": "CHICKEN SWEET CORN SOUP",
                     "price": 110,
-                    "id": "f7ad7332-b644-4ca8-ada3-73f0722cfa0b"
+                    "veg_nonveg": "NON",
+                    "id": "e8a16838-4939-403e-b530-561a745ed7cd"
                 },
                 {
-                    "title": "VEG HOT & SOUR SOUP",
-                    "description": "IT'S INDO CHINESE CUISINE MADE WITH LOTS OF FRESH VEGETABLES & VIBRANT SPICES, IT'S A SPICY SOUR AND HOT.",
+                    "srno": 5,
+                    "name": "VEG HOT & SOUR SOUP",
                     "price": 90,
-                    "id": "2ec5e467-2c7a-46af-93d7-ea59183e0efb"
+                    "veg_nonveg": "VEG",
+                    "id": "95620132-6989-4b14-b001-427514706906"
                 },
                 {
-                    "title": "CHICKEN HOT & SOUR SOUP",
-                    "description": "IT'S INDO CHINESE CUISINE MADE WITH LOTS OF FRESH VEGETABLES, CHICKEN & VIBRANT SPICES, IT'S A SPICY SOUR AND HOT.",
+                    "srno": 6,
+                    "name": "CHICKEN HOT & SOUR SOUP",
                     "price": 100,
-                    "id": "a02c51d0-6512-4349-896f-6e04029795f2"
+                    "veg_nonveg": "NON",
+                    "id": "4c06a687-c1a9-418d-aa53-780c46e2ad3d"
                 },
                 {
-                    "title": "VEG CLEAR SOUP",
-                    "description": "SOUP MADE BY SIMMERING VEGIES STOCK.",
+                    "srno": 7,
+                    "name": "VEG CLEAR SOUP",
                     "price": 80,
-                    "id": "34740eac-b7c8-4bf8-8149-4209d8f31a09"
+                    "veg_nonveg": "VEG",
+                    "id": "8c82827f-a9ee-475c-ba11-0270af1b0afd"
                 },
                 {
-                    "title": "CHICKEN CLEAR SOUP",
-                    "description": "SOUP MADE BY SIMMERING VEGIES & CHICKEN STOCK.",
+                    "srno": 8,
+                    "name": "CHICKEN CLEAR SOUP",
                     "price": 100,
-                    "id": "03916edb-d67e-43a7-be5d-6f2832506bac"
+                    "veg_nonveg": "NON",
+                    "id": "73397250-6952-4496-8728-a393600ee13c"
                 },
                 {
-                    "title": "SEA FOOD TOM YUM SOUP",
-                    "description": "TOM YUM SOUP IS SPICY THAI SOUP MADE WITH COCONUT CREAM.",
-                    "price": 150,
-                    "id": "54bf391f-1114-4b3b-b4e0-2c9577ce5e6b"
-                }
-            ],
-            "Starter": [
-                {
-                    "title": "CHICKEN 65",
-                    "description": "IT'S A BITE SIZE PIECES OF CHICKEN COATED IN SPICY MASALA MARINATED WITH CHILI POWDER, TURMERIC, GARAM MASALA POWDER, LEMON JUICE, GINGER, GARLIC, EGGS, RICE FLOUR THEN DEEP FRIED, SERVED WITH SCHEZWAN SAUCE.",
-                    "price": 215,
-                    "id": "dd58eaf8-1cb6-4ec0-8def-179857e53e44"
-                },
-                {
-                    "title": "CHICKEN CHILLY",
-                    "description": "BONELESS CHICKEN IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
-                    "price": 215,
-                    "id": "61782dd8-9f26-416c-97aa-1880ed7a65bd"
-                },
-                {
-                    "title": "CRISPY CHICKEN",
-                    "description": "SHREDDED CHICKEN BREAST BONELESS COATED WITH CORN STARCH, FLOUR & BAKING SODA, TOSSED WITH SCHEZWAN SAUCE & SEASONING.",
-                    "price": 225,
-                    "id": "c992a962-b5c9-4af0-9008-544493f379cc"
-                },
-                {
-                    "title": "CHICKEN LOLLYPOP",
-                    "description": "BATTER COATED DEEP FRIED CHICKEN WINGS CRISPY FRIED SERVED WITH SCHEZWAN SAUCE.",
-                    "price": 180,
-                    "id": "aecfd52c-d36d-4efb-8a89-fd87941049db"
-                },
-                {
-                    "title": "HONEY CHICKEN",
-                    "description": "THIS HONEY CHICKEN IS CRISPY PIECES OF CHICKEN BREAST THAT ARE FRIED TO GOLDEN BROWN PERFECTION, THEN TOSSED IN A SWEET AND SAVORY HONEY SAUCE.",
-                    "price": 240,
-                    "id": "2117bb52-0215-4a2c-a35d-813c9cb2197b"
-                },
-                {
-                    "title": "CHICKEN DRY FRY",
-                    "description": "DRY FRY IT'S SIMILAR TO CHICKEN PAKODA WITH BONE, MIXED WITH CHILI POWDER, LEMON JUICE, GARAM MASALA THEN DEEP FRIED, GARNISHED WITH CHUTNEY & CHOPPED CORIANDER.",
-                    "price": 220,
-                    "id": "f4ff794a-5ce5-4c58-bbb7-5d64f31e68f7"
-                },
-                {
-                    "title": "CHICKEN SPRING ROLL",
-                    "description": "PASTRY SHEETS ARE FILLED WITH VEGETABLE, CHICKEN & EGGS, THEN DEEP FRIED SERVED WITH SCHEZWAN SAUCE.",
-                    "price": 220,
-                    "id": "02869f8b-baa2-4a7a-a44b-dd3c862499b7"
-                },
-                {
-                    "title": "CHICKEN SALT & PEPPER",
-                    "description": "CRISPY SEASONED CHICKEN FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY.",
-                    "price": 235,
-                    "id": "fd8b451a-9934-46ba-9454-df99c36bb7bb"
-                },
-                {
-                    "title": "CHICKEN MANCHURIAN DRY / GRAVY",
-                    "description": "BONELESS FRIED CHICKEN PAKODA SAUT\u00c3\u2030 WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED DRY / GRAVY.",
-                    "price": 220,
-                    "id": "83827d4d-af1f-4c42-a3df-297f64b8cb0e"
-                },
-                {
-                    "title": "GOLDEN FRIED PRAWNS",
-                    "description": "GOLDEN FRIED PRAWNS IS THE PERFECT STARTER DISH WITH JUMBO PRAWNS COATED WITH CRISPY GOLDEN BATTER FRIED, SERVED WITH MAYO DIPPING.",
-                    "price": 325,
-                    "id": "75ac3a7a-420f-44de-8243-c34ec0ccf2a5"
-                },
-                {
-                    "title": "PRAWNS CHILLY DRY / GRAVY",
-                    "description": "PRAWNS IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
-                    "price": 300,
-                    "id": "2e7a05ee-07d4-494c-933c-9c3b6b6e4298"
-                },
-                {
-                    "title": "PANEER CHILLY DRY / GRAVY",
-                    "description": "PANEER IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
-                    "price": 195,
-                    "id": "c2e78868-ad09-4f7d-8e8f-cba22be4566f"
-                },
-                {
-                    "title": "PANEER MANCHURIAN",
-                    "description": "CRISPY SEASONED PANEER FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY.",
-                    "price": 195,
-                    "id": "c1c3a932-84b8-4e1a-84c6-03bb0dc41edb"
-                },
-                {
-                    "title": "VEG CRISPY",
-                    "description": "VEG CRISPY IS BASICALLY BATTER FRIED VEGGIES LATER STIR FRIED IN SCHZEWAN SAUCE. CRISPY FRIED VEGETABLES",
-                    "price": 180,
-                    "id": "aec7533d-24a8-4c99-9fa4-bde521126f28"
-                },
-                {
-                    "title": "VEG SPRING ROLL",
-                    "description": "PASTRY SHEETS ARE FILLED WITH VEGETABLE, DEEP FRIED SERVED WITH SCHEZWAN SAUCE.",
-                    "price": 180,
-                    "id": "b411c8ed-85c2-4dba-82fc-739f1c700697"
-                },
-                {
-                    "title": "BABY CORN CHILLY DRY / GRAVY",
-                    "description": "CRISPY FRIED BABY CORN SAUT\u00c3\u2030 WITH ONION CAPSICUM, CHILLY & CHILI SAUCE, SERVED DRY / GRAVY.",
-                    "price": 190,
-                    "id": "7cb48670-a15d-4bf9-b757-a58452d78eea"
-                },
-                {
-                    "title": "HONEY SESAME POTATO",
-                    "description": "CRISPY CUBES FRIED POTATOES, TOSSED WITH HONEY AND SESAME SEEDS.",
-                    "price": 190,
-                    "id": "3a0d8f9d-750e-4013-9d7e-aae385da11b0"
-                },
-                {
-                    "title": "PANEER 65",
-                    "description": "PANEER CRISPY PAKODA SAUTED WITH INDIAN MIX MASALA LIKE CURRY LEAVES, MUSTARD SEEDS, CURD, CAPSICUM, ONION, SPICY & TANGY, SERVED IN DRY / GRAVY.",
-                    "price": 195,
-                    "id": "8a1a8064-c9eb-40b7-b8f9-eb40af3d8cbf"
-                },
-                {
-                    "title": "PANEER SALT & PEPPER",
-                    "description": "CRISPY SEASONED PANEER FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY.",
-                    "price": 210,
-                    "id": "211d5898-368b-40e3-aabe-3b8929d0577b"
-                },
-                {
-                    "title": "VEG MANCHURIAN DRY / GRAVY",
-                    "description": "VEGIES PAKODA SAUTE WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED DRY / GRAVY.",
-                    "price": 180,
-                    "id": "fc6f32ac-218b-4c69-aa78-57bcf94b3acf"
-                }
-            ],
-            "Mains": [
-                {
-                    "title": "CHICKEN FRIED RICE",
-                    "description": "STIR FRIED RICE WITH COOKED CHICKEN BREAST, EGG & VEGGIES.",
-                    "price": 160,
-                    "id": "ff9efdac-17ee-4314-8296-7334ae55fbb7"
-                },
-                {
-                    "title": "VEG FRIED RICE",
-                    "description": "STIR FRIED RICE WITH EGG & VEGGIES.",
-                    "price": 140,
-                    "id": "2e5050f8-ed01-4373-a2d5-d76a46bb1a93"
-                },
-                {
-                    "title": "CHICKEN HAKA NOODLES",
-                    "description": "NOODLES STIR FRIED WITH CHICKEN BREAST & VEGETABLES.",
-                    "price": 160,
-                    "id": "bd508d04-b927-4127-aa54-c44f878d68cf"
-                },
-                {
-                    "title": "VEG HAKA NOODLES",
-                    "description": "NOODLES STIR FRIED WITH EGG & VEGETABLES.",
-                    "price": 140,
-                    "id": "26e089be-abc1-4a5a-b507-2b5b1a8e27c7"
-                },
-                {
-                    "title": "CHICKEN MANCHURIAN",
-                    "description": "CRISPY FRIED CHICKEN PAKORA SAUTE WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED WITH FRIED RICE / NOODLES.",
-                    "price": 240,
-                    "id": "adf2e3f5-586d-40b8-a174-faf709fd0737"
-                },
-                {
-                    "title": "VEG MANCHURIAN",
-                    "description": "CRISPY FRIED VEGETABLE PAKORA SAUTE WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED WITH FRIED RICE / NOODLES.",
-                    "price": 190,
-                    "id": "f7d20e3f-dec5-4be9-8d9f-32e258715271"
-                },
-                {
-                    "title": "CHICKEN SWEET CORN",
-                    "description": "CHICKEN BREAST DICED & SAUTEED IN SWEET CORN SAUCE.",
-                    "price": 225,
-                    "id": "09d0e53b-a002-4f9c-b601-e8308a9b8567"
-                },
-                {
-                    "title": "CHICKEN CHILLY GRAVY",
-                    "description": "BONELESS CHICKEN IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
-                    "price": 225,
-                    "id": "27971576-8365-4840-97a7-c384cfc980fd"
-                },
-                {
-                    "title": "CHICKEN GARLIC SAUCE",
-                    "description": "CHICKEN BREAST DICED & SAUTEED IN GARLIC SAUCE.",
-                    "price": 225,
-                    "id": "ee0a60ca-d677-40cc-9552-928961f887f9"
-                },
-                {
-                    "title": "CHICKEN BLACK PEPPER",
-                    "description": "CHICKEN BREAST DICED & SAUTEED IN BLACK PEPPER SAUCE.",
-                    "price": 225,
-                    "id": "85e50b9e-df0b-4e92-9560-16e2944f9860"
-                },
-                {
-                    "title": "CHICKEN WITH CASHEW NUTS",
-                    "description": "CHICKEN BREAST DICED & SAUTEED WITH CASHEW NUTS.",
-                    "price": 225,
-                    "id": "c9cff49b-5ad8-4ddb-9559-d5454db61fb0"
-                },
-                {
-                    "title": "CHICKEN WITH BROCOLLI",
-                    "description": "CHICKEN BREAST DICED & SAUTEED WITH BROCOLLI.",
-                    "price": 225,
-                    "id": "ad95de01-dc79-4e79-bbc9-c4c8e9f87074"
-                },
-                {
-                    "title": "VEG BLACK PEPPER",
-                    "description": "VEGETABLES STIR FRIED WITH BLACK PEPPER SAUCE.",
-                    "price": 170,
-                    "id": "9ad9fd57-f846-479e-bdf6-86f0a11115f7"
-                },
-                {
-                    "title": "VEG GARLIC SAUCE",
-                    "description": "VEGETABLES STIR FRIED WITH GARLIC SAUCE.",
-                    "price": 170,
-                    "id": "47542a29-59d3-4aa8-92a8-36deaac7e01c"
-                },
-                {
-                    "title": "VEG SWEET CORN",
-                    "description": "VEGETABLES STIR FRIED WITH SWEET CORN SAUCE.",
-                    "price": 170,
-                    "id": "e4b26261-bdf2-4d96-9fbe-6e46e79ea3e6"
-                },
-                {
-                    "title": "VEG CASHEW NUTS",
-                    "description": "VEGETABLES STIR FRIED WITH CASHEW NUTS.",
-                    "price": 170,
-                    "id": "9ef4d766-f544-46ae-9ae8-77d753bf48fb"
-                },
-                {
-                    "title": "VEG BROCOLLI",
-                    "description": "VEGETABLES STIR FRIED WITH BROCOLLI.",
-                    "price": 170,
-                    "id": "8a613ca7-809c-4fd4-aa6f-c77cc0a6727c"
-                },
-                {
-                    "title": "PRAWNS FRIED RICE",
-                    "description": "STIR FRIED RICE WITH COOKED PRAWNS, EGG & VEGGIES.",
-                    "price": 200,
-                    "id": "a1b38a83-da13-47d5-9a79-76d4c6790b43"
-                },
-                {
-                    "title": "PRAWNS HAKA NOODLES",
-                    "description": "NOODLES STIR FRIED WITH PRAWNS & VEGETABLES.",
-                    "price": 200,
-                    "id": "43937ab9-c135-48d0-9861-7737b223ac9f"
-                },
-                {
-                    "title": "VEG SCHEZWAN FRIED RICE",
-                    "description": "STIR FRIED RICE WITH VEGETABLES AND SCHEZWAN SAUCE.",
-                    "price": 160,
-                    "id": "9abda751-a29b-4a83-ae87-75901e906aa9"
-                },
-                {
-                    "title": "SCHEZWAN CHICKEN FRIED RICE",
-                    "description": "STIR FRIED RICE WITH CHICKEN AND SCHEZWAN SAUCE.",
-                    "price": 190,
-                    "id": "4353edcd-c41d-4466-af5a-290ca39b218e"
-                },
-                {
-                    "title": "EGG FRIED RICE",
-                    "description": "STIR FRIED RICE WITH EGG AND VEGGIES.",
-                    "price": 160,
-                    "id": "c4a14a65-e117-48aa-a70a-91e5b879ca20"
-                },
-                {
-                    "title": "SCHEZWAN EGG FRIED RICE",
-                    "description": "STIR FRIED RICE WITH EGG AND SCHEZWAN SAUCE.",
-                    "price": 170,
-                    "id": "4b029c40-c34b-40c3-a424-17187af146bb"
-                },
-                {
-                    "title": "MIXED FRIED RICE (NON VEG)",
-                    "description": "STIR FRIED RICE WITH CHICKEN, PRAWNS, AND VEGGIES.",
-                    "price": 250,
-                    "id": "363e3012-1023-477b-b4c4-e630ea9befb2"
+                    "srno": 9,
+                    "name": "TOMATO SHORBA",
+                    "price": 80,
+                    "veg_nonveg": "VEG",
+                    "id": "5d1103cd-5231-476c-a38f-6280f454193f"
                 },
-                {
-                    "title": "VEG SCHEZWAN NOODLES",
-                    "description": "STIR FRIED NOODLES WITH VEGETABLES AND SCHEZWAN SAUCE.",
-                    "price": 160,
-                    "id": "b24a93c6-365f-42b5-99b8-5d4129faa0b2"
-                },
-                {
-                    "title": "CHICKEN SCHEZWAN NOODLES",
-                    "description": "STIR FRIED NOODLES WITH CHICKEN AND SCHEZWAN SAUCE.",
-                    "price": 190,
-                    "id": "0013fa03-c95f-40bd-9e42-f0835f23d581"
-                },
-                {
-                    "title": "EGG NOODLES",
-                    "description": "STIR FRIED NOODLES WITH EGG AND VEGGIES.",
-                    "price": 160,
-                    "id": "f3eb0c5f-d9b1-4b31-b830-f63dee1709c9"
-                },
-                {
-                    "title": "EGG SCHEZWAN NOODLES",
-                    "description": "STIR FRIED NOODLES WITH EGG AND SCHEZWAN SAUCE.",
-                    "price": 170,
-                    "id": "526b02d1-24a6-46fd-96b0-e9194a0736e7"
-                },
-                {
-                    "title": "VEG CHOWMIN",
-                    "description": "STIR FRIED NOODLES WITH VEGETABLES.",
-                    "price": 160,
-                    "id": "4cf43d0e-8922-434e-bad6-1915b53f03e2"
-                },
-                {
-                    "title": "CHICKEN CHOWMIN",
-                    "description": "STIR FRIED NOODLES WITH CHICKEN.",
-                    "price": 180,
-                    "id": "ea9b259a-6008-40e6-983b-ab16a4c7d0f7"
-                }
-            ]
-        }
-    },
-    {
-        "category": "Indian",
-        "subcategory": {
-            "Rice": [
-                {
-                    "title": "CHICKEN BIRYANI",
-                    "description": "RICE COOKED WITH CHICKEN BREAST, CARAMELIZED ONIONS, YOGURT AND SPICES.",
-                    "price": 220,
-                    "id": "2e537f9b-2a66-4490-ab76-1691e97ade38"
-                },
-                {
-                    "title": "VEG BIRYANI",
-                    "description": "RICE COOKED WITH MIXED VEGETABLES, CARAMELIZED ONIONS, YOGURT AND SPICES.",
-                    "price": 180,
-                    "id": "4e26e0cc-7e94-4f54-bade-809cd9212b8a"
-                },
-                {
-                    "title": "CHICKEN PULAO",
-                    "description": "RICE COOKED WITH CHICKEN BREAST, VEGGIES, AND SPICES.",
-                    "price": 200,
-                    "id": "cec97399-5a30-47d3-ab1b-be850fbecb07"
-                },
-                {
-                    "title": "VEG PULAO",
-                    "description": "RICE COOKED WITH MIXED VEGETABLES AND SPICES.",
-                    "price": 160,
-                    "id": "9689842e-8809-4221-a693-524da38660f9"
-                },
-                {
-                    "title": "JEERA RICE",
-                    "description": "RICE STIR FRIED WITH CUMIN SEEDS.",
-                    "price": 130,
-                    "id": "6ed514bd-1fd9-4494-892a-f84be6716819"
-                },
-                {
-                    "title": "PLAIN RICE",
-                    "description": "SIMPLY COOKED WHITE RICE.",
-                    "price": 100,
-                    "id": "09e4a09a-54dc-42fd-a392-3ee182ef4f39"
-                }
-            ],
-            "Main Course": [
-                {
-                    "title": "CHICKEN TIKKA MASALA",
-                    "description": "GRILLED CHICKEN COOKED IN TOMATO-BASED GRAVY WITH CREAM.",
-                    "price": 250,
-                    "id": "ebc27b91-bfe3-4db9-8f85-2af023556ed7"
-                },
-                {
-                    "title": "BUTTER CHICKEN",
-                    "description": "CHICKEN COOKED IN BUTTERY TOMATO GRAVY WITH CREAM.",
-                    "price": 250,
-                    "id": "494557a9-49e4-4b73-9bdc-c7380d42e2a5"
-                },
-                {
-                    "title": "CHICKEN KORMA",
-                    "description": "CHICKEN COOKED IN A CREAMY YOGURT AND SPICE GRAVY.",
-                    "price": 250,
-                    "id": "5d39d0c1-b88d-47a7-a243-f31992fbd433"
-                },
-                {
-                    "title": "CHICKEN SAAG",
-                    "description": "CHICKEN COOKED WITH SPINACH IN SPICY GRAVY.",
-                    "price": 250,
-                    "id": "0587dd0d-a86e-4086-806f-5f36e71105a4"
-                },
-                {
-                    "title": "CHICKEN DO PYAZA",
-                    "description": "CHICKEN COOKED WITH ONIONS IN A SPICY GRAVY.",
-                    "price": 250,
-                    "id": "c5480960-e405-4144-8097-2c8e5d2d0fe0"
-                },
-                {
-                    "title": "MUTTON ROGAN JOSH",
-                    "description": "MUTTON COOKED IN A SPICY YOGURT AND TOMATO GRAVY.",
-                    "price": 280,
-                    "id": "4a83d433-2c8e-4432-9bd6-d20e3b3803ce"
-                },
-                {
-                    "title": "MUTTON KORMA",
-                    "description": "MUTTON COOKED IN A CREAMY YOGURT AND SPICE GRAVY.",
-                    "price": 280,
-                    "id": "df71814c-d6ea-4d74-8fc7-4593bae165e3"
-                },
-                {
-                    "title": "MUTTON SAAG",
-                    "description": "MUTTON COOKED WITH SPINACH IN SPICY GRAVY.",
-                    "price": 280,
-                    "id": "0c552cdf-1948-4ba5-85f6-74a582b34a1c"
-                },
-                {
-                    "title": "VEG KORMA",
-                    "description": "MIXED VEGETABLES COOKED IN A CREAMY YOGURT AND SPICE GRAVY.",
-                    "price": 200,
-                    "id": "568d9172-da82-4e49-ad1c-7b740786f33a"
-                },
-                {
-                    "title": "VEG TIKKA MASALA",
-                    "description": "GRILLED VEGETABLES COOKED IN TOMATO-BASED GRAVY WITH CREAM.",
-                    "price": 200,
-                    "id": "0d32b1a9-49ee-4b6a-ba33-9e303d87ff31"
-                },
-                {
-                    "title": "VEG SAAG",
-                    "description": "VEGETABLES COOKED WITH SPINACH IN SPICY GRAVY.",
-                    "price": 200,
-                    "id": "8d2d4b05-a4b7-41ff-b282-5254c17e501a"
-                },
-                {
-                    "title": "VEG DO PYAZA",
-                    "description": "VEGETABLES COOKED WITH ONIONS IN A SPICY GRAVY.",
-                    "price": 200,
-                    "id": "90530054-c50d-4e38-b9cb-148a5409f8a9"
-                },
-                {
-                    "title": "DAL MAKHANI",
-                    "description": "BLACK LENTILS COOKED IN A BUTTERY GRAVY.",
-                    "price": 180,
-                    "id": "5790d35e-fa81-40a2-b9af-38743c747bc0"
-                },
-                {
-                    "title": "CHANA MASALA",
-                    "description": "CHICKPEAS COOKED IN A SPICY TOMATO GRAVY.",
-                    "price": 180,
-                    "id": "89f1cafd-b495-41a3-b35a-55806a7ffd8a"
-                },
-                {
-                    "title": "PALAK PANEER",
-                    "description": "COTTAGE CHEESE COOKED WITH SPINACH IN A SPICY GRAVY.",
-                    "price": 200,
-                    "id": "aca4e128-a9a8-4b50-ba75-1c741f3bd65a"
-                },
-                {
-                    "title": "ALOO GOBI",
-                    "description": "POTATOES AND CAULIFLOWER COOKED WITH SPICES.",
-                    "price": 160,
-                    "id": "9ad73295-7449-419c-b1e4-07722a02c4a9"
-                }
-            ]
-        }
-    },
-    {
-        "category": "Arabic",
-        "subcategory": {
-            "Mains": [
-                {
-                    "title": "KABIA RICE",
-                    "description": "ARABIC STYLE RICE DISH.",
-                    "price": "TBD",
-                    "id": "8ef88386-b7f9-4b2a-a96d-8fd08b3ce6f2"
-                },
-                {
-                    "title": "MANDI",
-                    "description": "ARABIC RICE DISH WITH MEAT.",
-                    "price": "TBD",
-                    "id": "6f8921cb-3bfd-4d25-83ad-88974c4479d0"
-                },
-                {
-                    "title": "QUZI",
-                    "description": "ARABIC RICE DISH WITH SLOW COOKED MEAT.",
-                    "price": "TBD",
-                    "id": "f042df9e-11ea-4ee4-9cdc-4a821ea3827f"
-                },
-                {
-                    "title": "MACHBOOS",
-                    "description": "SPICED RICE WITH MEAT.",
-                    "price": "TBD",
-                    "id": "788a7a95-adda-42cb-aea1-51d5d122e8a1"
-                },
-                {
-                    "title": "MANSAF",
-                    "description": "TRADITIONAL JORDANIAN RICE DISH.",
-                    "price": "TBD",
-                    "id": "eafa3e7a-ce52-416e-8236-54418be552f1"
-                }
-            ]
-        }
-    },
-    {
-        "category": "Momos",
-        "subcategory": {
-            "Momos": [
-                {
-                    "title": "VEG STEAMED MOMOS",
-                    "description": "STEAMED MOMOS FILLED WITH MIXED VEGETABLES.",
-                    "price": 150,
-                    "id": "97f6fc43-a7f9-4caf-afff-2ff4781c5a5a"
-                },
-                {
-                    "title": "VEG KURKURE MOMOS",
-                    "description": "CRISPY KURKURE MOMOS FILLED WITH VEGETABLES.",
-                    "price": 180,
-                    "id": "2f50534a-0149-46cb-8fe0-e06d73618ae2"
-                },
-                {
-                    "title": "VEG BUTTER GARLIC MOMOS",
-                    "description": "BUTTER GARLIC FLAVORED MOMOS FILLED WITH VEGETABLES.",
-                    "price": 180,
-                    "id": "a64b17c4-f154-4909-8c70-ab585b1298c8"
-                },
-                {
-                    "title": "STEAMED PANEER MOMOS",
-                    "description": "STEAMED MOMOS FILLED WITH PANEER.",
-                    "price": 200,
-                    "id": "dd4acebf-0c07-47f4-85dd-cd93c74d5266"
-                },
-                {
-                    "title": "CHICKEN STEAMED MOMOS",
-                    "description": "STEAMED MOMOS FILLED WITH CHICKEN.",
-                    "price": 190,
-                    "id": "b5d8860a-ddcd-4096-ab25-b524dae52245"
-                },
-                {
-                    "title": "CHICKEN KURKURE MOMOS",
-                    "description": "CRISPY KURKURE MOMOS FILLED WITH CHICKEN.",
-                    "price": 220,
-                    "id": "1af43d9a-ca42-4d51-a36a-1da802549c69"
-                },
-                {
-                    "title": "CHICKEN BUTTER GARLIC MOMOS",
-                    "description": "BUTTER GARLIC FLAVORED MOMOS FILLED WITH CHICKEN.",
-                    "price": 220,
-                    "id": "60d0b749-c55b-4d06-84fe-8a588af057ae"
-                },
-                {
-                    "title": "CHICKEN SCHEZWAN MOMOS",
-                    "description": "SCHEZWAN SAUCE FLAVORED MOMOS FILLED WITH CHICKEN.",
-                    "price": 200,
-                    "id": "0b12b3bd-5e05-43d0-8a3c-55794f4e2224"
-                }
-            ]
-        }
-    },
-    {
-        "category": "Continental",
-        "subcategory": {
-            "Full Course Meal": [
-                {
-                    "title": "GRILLED CHICKEN BREAST WITH SAUTED VEGGIES DIP",
-                    "description": "GRILLED CHICKEN BREAST SERVED WITH SAUTED VEGGIES AND DIP.",
-                    "price": 450,
-                    "id": "52b0d8d5-00d5-4aac-9379-4f9e42b84611"
-                },
-                {
-                    "title": "GRILLED FISH WITH CHIPS AND BUTTER RICE",
-                    "description": "GRILLED FISH SERVED WITH CHIPS AND BUTTER RICE.",
-                    "price": 480,
-                    "id": "e7ec3019-665f-44d3-a66b-ce028959e07e"
-                },
-                {
-                    "title": "DEEP FRIED CHICKEN DRUMSTICK WITH BLACK PEPPER SAUCE",
-                    "description": "DEEP FRIED CHICKEN DRUMSTICK SERVED WITH BLACK PEPPER SAUCE.",
-                    "price": 450,
-                    "id": "5d1034ad-cdb0-4810-8a3a-59ef9195e1ef"
-                },
-                {
-                    "title": "CHICKEN WITH MASHROOM CREAM SAUTED VEGIES AND SAUCE",
-                    "description": "CHICKEN SERVED WITH MASHROOM CREAM SAUTED VEGGIES AND SAUCE.",
-                    "price": 400,
-                    "id": "e5a56a13-50a0-4342-808d-1a8b9153ff95"
-                },
-                {
-                    "title": "GRILLED PANEER WITH HERB RICE & SAUTED VEGGIES",
-                    "description": "GRILLED PANEER SERVED WITH HERB RICE AND SAUTED VEGGIES.",
-                    "price": 400,
-                    "id": "ab5ee296-0669-4d33-830e-ff3b8af5b1d7"
-                }
-            ]
-        }
-    },
-    {
-        "category": "Rice",
-        "subcategory": {
-            "Rice": [
                 {
-                    "title": "JIRA RICE",
-                    "description": "RICE COOKED WITH CUMIN SEEDS.",
+                    "srno": 10,
+                    "name": "CREAM OF MUSHROOM",
                     "price": 120,
-                    "id": "9725d6c9-88d5-4529-aa24-6bc9d3507123"
+                    "veg_nonveg": "VEG",
+                    "id": "a89a3177-1b6d-4d76-aff6-06c2bf5eb062"
                 },
                 {
-                    "title": "DAL KHICHDI",
-                    "description": "RICE AND LENTILS COOKED TOGETHER.",
+                    "srno": 11,
+                    "name": "CREAM OF CHICKEN",
                     "price": 130,
-                    "id": "29645ddf-178d-49b8-b3dd-23ffc578ae1d"
+                    "veg_nonveg": "NON",
+                    "id": "39aa9c1e-2fd3-44d8-98d3-0ecdc29ad1af"
                 },
                 {
-                    "title": "CURD RICE",
-                    "description": "RICE MIXED WITH CURD.",
+                    "srno": 12,
+                    "name": "VEG DUMPLING SOUP",
+                    "price": 100,
+                    "veg_nonveg": "VEG",
+                    "id": "149e5bed-aab6-4c27-bfcb-9a729b3cd01e"
+                },
+                {
+                    "srno": 13,
+                    "name": "CHICKEN DUMPLING SOUP",
+                    "price": 110,
+                    "veg_nonveg": "NON",
+                    "id": "33ceb86d-e2d6-4fba-b07e-c2ff4ecfc069"
+                }
+            ]
+        }
+    },
+    {
+        "category": "STARTERS",
+        "subcategory": {
+            "STARTER": [
+                {
+                    "srno": 1,
+                    "name": "ROASTED PAPAD",
+                    "price": 30,
+                    "veg_nonveg": "VEG",
+                    "id": "b8eac48e-68a7-4897-85aa-e5c203eb5a43"
+                },
+                {
+                    "srno": 2,
+                    "name": "MASALA PAPAD",
+                    "price": 60,
+                    "veg_nonveg": "VEG",
+                    "id": "5d44b340-346f-46a7-9eef-eefedde97634"
+                },
+                {
+                    "srno": 3,
+                    "name": "BOILED PEANUTS",
+                    "price": 60,
+                    "veg_nonveg": "VEG",
+                    "id": "292fa329-7cdd-42bb-b827-f5b30d362772"
+                },
+                {
+                    "srno": 4,
+                    "name": "BOILED CHANA",
+                    "price": 60,
+                    "veg_nonveg": "VEG",
+                    "id": "dc7382de-2873-4810-87d4-0cc5063e9cee"
+                },
+                {
+                    "srno": 5,
+                    "name": "NACHOS",
+                    "price": 130,
+                    "veg_nonveg": "VEG",
+                    "id": "01569dc3-e027-41b4-8a4a-4d03515dc5eb"
+                },
+                {
+                    "srno": 6,
+                    "name": "CHEESE CUBES",
+                    "price": 80,
+                    "veg_nonveg": "VEG",
+                    "id": "e324f843-21c4-4205-8183-d6f5919ed7e9"
+                },
+                {
+                    "srno": 7,
+                    "name": "BOILED EGG",
+                    "price": 30,
+                    "veg_nonveg": "NON",
+                    "id": "1693ff38-5580-4a25-a239-bce684fd4fa2"
+                },
+                {
+                    "srno": 8,
+                    "name": "PLAIN OMLETTE",
+                    "price": 30,
+                    "veg_nonveg": "NON",
+                    "id": "ae0b6081-552c-4721-886c-3c4ca918889e"
+                },
+                {
+                    "srno": 9,
+                    "name": "MASALA OMLETTE",
+                    "price": 60,
+                    "veg_nonveg": "NON",
+                    "id": "1aecdf74-d957-46cc-8281-637c01ed2e74"
+                },
+                {
+                    "srno": 10,
+                    "name": "MASALA BOILED CHANA",
+                    "price": 80,
+                    "veg_nonveg": "VEG",
+                    "id": "a36814b3-db0f-497e-a179-727e4f387905"
+                },
+                {
+                    "srno": 11,
+                    "name": "MASALA BOILED PEANUTS",
+                    "price": 80,
+                    "veg_nonveg": "VEG",
+                    "id": "b5b59183-d56c-4093-9e7c-79978cd87dce"
+                },
+                {
+                    "srno": 12,
+                    "name": "GREEN PEAS MASALA FRY",
+                    "price": 80,
+                    "veg_nonveg": "VEG",
+                    "id": "c4d19732-0dfe-40c4-989d-892b16d918c6"
+                },
+                {
+                    "srno": 13,
+                    "name": "HALF FRY EGG",
+                    "price": 30,
+                    "veg_nonveg": "NON",
+                    "id": "417ecfd1-cfc0-4339-a3ee-f5978a143417"
+                },
+                {
+                    "srno": 14,
+                    "name": "CHICKEN CHILLY",
+                    "price": 215,
+                    "veg_nonveg": "NON",
+                    "id": "62456ac7-501d-4336-a4c2-e0ed17b8296b"
+                },
+                {
+                    "srno": 15,
+                    "name": "CRISPY CHICKEN",
+                    "price": 225,
+                    "veg_nonveg": "NON",
+                    "id": "38ca2ed0-2c69-4d8d-a44b-18833e800c7e"
+                },
+                {
+                    "srno": 16,
+                    "name": "CHICKEN LOLLYPOP",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "fc35af12-9550-42fc-bd22-eec461d18f24"
+                },
+                {
+                    "srno": 17,
+                    "name": "HONEY CHICKEN",
+                    "price": 240,
+                    "veg_nonveg": "NON",
+                    "id": "7c8a8030-fed6-4998-8f7a-a021066a2fe1"
+                },
+                {
+                    "srno": 18,
+                    "name": "CHICKEN DRY FRY",
+                    "price": 220,
+                    "veg_nonveg": "NON",
+                    "id": "3033d855-f833-4939-9175-2919337b7dff"
+                },
+                {
+                    "srno": 19,
+                    "name": "CHICKEN SPRING ROLL",
+                    "price": 220,
+                    "veg_nonveg": "NON",
+                    "id": "948ef04f-1f2a-49be-984e-b27625813b8c"
+                },
+                {
+                    "srno": 20,
+                    "name": "CHICKEN SALT & PEPPER",
+                    "price": 235,
+                    "veg_nonveg": "NON",
+                    "id": "24a17ecb-fedc-4c59-be5d-3abfe45a79bf"
+                },
+                {
+                    "srno": 21,
+                    "name": "CHICKEN MANCHURIAN DRY / GRAVY",
+                    "price": 220,
+                    "veg_nonveg": "NON",
+                    "id": "753a506e-887f-4c4d-805f-690e633c4a1e"
+                },
+                {
+                    "srno": 22,
+                    "name": "PANEER MANCHURIAN",
+                    "price": 195,
+                    "veg_nonveg": "VEG",
+                    "id": "e9f20110-c625-496a-b13d-f143984c2cfa"
+                },
+                {
+                    "srno": 23,
+                    "name": "VEG CRISPY",
+                    "price": 180,
+                    "veg_nonveg": "VEG",
+                    "id": "f2e73ec8-ddb0-4c82-b886-fb5e90431dad"
+                },
+                {
+                    "srno": 24,
+                    "name": "VEG SPRING ROLL",
+                    "price": 180,
+                    "veg_nonveg": "VEG",
+                    "id": "622650b1-018c-4bc4-9b43-9ba98433fc3a"
+                },
+                {
+                    "srno": 25,
+                    "name": "BABY CORN CHILLY DRY / GRAVY",
+                    "price": 190,
+                    "veg_nonveg": "VEG",
+                    "id": "cab36515-1739-445b-934d-ecc5385801f8"
+                },
+                {
+                    "srno": 26,
+                    "name": "HONEY SESAME POTATO",
+                    "price": 190,
+                    "veg_nonveg": "VEG",
+                    "id": "a9371a64-7145-4218-8289-a4b7b27b7b7c"
+                },
+                {
+                    "srno": 27,
+                    "name": "PANEER 65",
+                    "price": 195,
+                    "veg_nonveg": "VEG",
+                    "id": "3c19537d-08df-4a2e-8017-a015290cfc02"
+                },
+                {
+                    "srno": 28,
+                    "name": "PANEER SALT & PEPPER",
+                    "price": 210,
+                    "veg_nonveg": "VEG",
+                    "id": "e8dee070-76f5-4626-b5b0-2a7cd7fe3b83"
+                },
+                {
+                    "srno": 29,
+                    "name": "VEG MANCHURIAN DRY / GRAVY",
+                    "price": 180,
+                    "veg_nonveg": "VEG",
+                    "id": "e77fe5d1-9d3a-49f7-8da9-5fa2cc1168c7"
+                },
+                {
+                    "srno": 30,
+                    "name": "GOBI MANCHURIAN DRY / GRAVY",
+                    "price": 170,
+                    "veg_nonveg": "VEG",
+                    "id": "f7c7575e-9363-4752-943c-54101f40b8ed"
+                },
+                {
+                    "srno": 31,
+                    "name": "MUSHROOM CHILLY DRY / GRAVY",
+                    "price": 185,
+                    "veg_nonveg": "VEG",
+                    "id": "d9fa674f-266e-4492-b65c-d9e20b614cf2"
+                },
+                {
+                    "srno": 32,
+                    "name": "CHICKEN MASALA LOLLYPOP",
+                    "price": 200,
+                    "veg_nonveg": "NON",
+                    "id": "b3b029bc-99e3-4b9d-b5e9-ee8ac5419a9b"
+                },
+                {
+                    "srno": 33,
+                    "name": "FRENCH FRIES",
+                    "price": 120,
+                    "veg_nonveg": "VEG",
+                    "id": "2a1917ae-3b13-49db-a515-3b7dc62bd818"
+                },
+                {
+                    "srno": 34,
+                    "name": "CHEESY FRENCH FRIES",
+                    "price": 160,
+                    "veg_nonveg": "VEG",
+                    "id": "256c01f9-090d-4274-8296-46398eb653c1"
+                },
+                {
+                    "srno": 35,
+                    "name": "POTATO WEDGES",
+                    "price": 130,
+                    "veg_nonveg": "VEG",
+                    "id": "7c626f8f-cb65-42ed-9d50-4d00e64df962"
+                },
+                {
+                    "srno": 36,
+                    "name": "BBQ CHICKEN WINGS",
+                    "price": 220,
+                    "veg_nonveg": "NON",
+                    "id": "8fc2ba8a-6c42-41f3-89b1-12cf1ee668df"
+                },
+                {
+                    "srno": 37,
+                    "name": "CHICKEN NUGGETS",
+                    "price": 190,
+                    "veg_nonveg": "NON",
+                    "id": "3cd49f78-df12-4a8e-bb4d-fbea520b8c6d"
+                },
+                {
+                    "srno": 38,
+                    "name": "ONION RINGS",
                     "price": 140,
-                    "id": "6d659eca-6e83-4275-821a-d8e96a141d50"
+                    "veg_nonveg": "VEG",
+                    "id": "d920e302-2412-4941-89a8-ac9a4294eb1c"
                 },
                 {
-                    "title": "MUTTON BIRYANI",
-                    "description": "SPICED RICE WITH MUTTON.",
-                    "price": 300,
-                    "id": "9e118109-e055-48df-9d33-93fd154e7b1e"
+                    "srno": 39,
+                    "name": "CHEESE STUFFED BUTTON MUSHROOMS",
+                    "price": 220,
+                    "veg_nonveg": "VEG",
+                    "id": "a76d0c37-d453-4fbe-bcfd-1c98d03065fa"
                 },
                 {
-                    "title": "CHICKEN BIRYANI",
-                    "description": "SPICED RICE WITH CHICKEN.",
-                    "price": 280,
-                    "id": "15f855e5-7441-4a88-a4d1-ea02ce0086b1"
+                    "srno": 40,
+                    "name": "FALAFEL",
+                    "price": 180,
+                    "veg_nonveg": "VEG",
+                    "id": "62a9f941-cab8-4f96-bf54-f57ce7d8caab"
                 },
                 {
-                    "title": "VEG BIRYANI",
-                    "description": "SPICED RICE WITH MIXED VEGETABLES.",
+                    "srno": 41,
+                    "name": "CHEESE CORN BALLS",
+                    "price": 220,
+                    "veg_nonveg": "VEG",
+                    "id": "d0a6d6c1-c446-496e-ac89-25d4acf03ee1"
+                },
+                {
+                    "srno": 42,
+                    "name": "CHICKEN TAWA FRY",
                     "price": 250,
-                    "id": "d1507564-df4b-481a-8fef-b4ffbe4a105e"
+                    "veg_nonveg": "NON",
+                    "id": "c9374253-c5c5-4adb-91ee-a72ec3b89915"
+                },
+                {
+                    "srno": 43,
+                    "name": "CHICKEN RAWA FRY",
+                    "price": 240,
+                    "veg_nonveg": "NON",
+                    "id": "512ba78b-9a55-44be-93aa-814ffce51016"
+                },
+                {
+                    "srno": 44,
+                    "name": "CALAMARI CHILLY FRY",
+                    "price": 290,
+                    "veg_nonveg": "NON",
+                    "id": "22de9311-4e8f-4fdc-8eb6-42fa66e39cc5"
+                },
+                {
+                    "srno": 45,
+                    "name": "GOLDEN FRIED PRAWNS",
+                    "price": 325,
+                    "veg_nonveg": "NON",
+                    "id": "3e58119c-57c8-470d-805d-39ba3b9fe377"
+                },
+                {
+                    "srno": 46,
+                    "name": "CRISPY SARDINE",
+                    "price": 140,
+                    "veg_nonveg": "NON",
+                    "id": "e2a01d7d-fb65-494f-aa35-ec9ef0c322fc"
+                },
+                {
+                    "srno": 47,
+                    "name": "CRISPY CALAMARI",
+                    "price": 295,
+                    "veg_nonveg": "NON",
+                    "id": "c054e0fc-a3df-4aa0-bdba-a7d1652d6bd6"
+                },
+                {
+                    "srno": 48,
+                    "name": "PANEER CHILLY DRY / GRAVY",
+                    "price": 195,
+                    "veg_nonveg": "VEG",
+                    "id": "1e8fd9ce-9735-4246-baf9-037176dfcc84"
+                }
+            ]
+        }
+    },
+    {
+        "category": "SALAD",
+        "subcategory": {
+            "SALAD": [
+                {
+                    "srno": 1,
+                    "name": "GREEK SALAD",
+                    "price": 170,
+                    "veg_nonveg": "VEG",
+                    "id": "2a48a3a9-29dc-455a-a0ee-092d6c78e149"
+                },
+                {
+                    "srno": 2,
+                    "name": "MIX SALAD WITH POMEGRANATES",
+                    "price": 175,
+                    "veg_nonveg": "VEG",
+                    "id": "16b366ff-70ac-44e7-b495-6a80e615040f"
+                },
+                {
+                    "srno": 3,
+                    "name": "CAESAR SALAD WITH CHICKEN",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "5f2d16d8-88d4-499d-bb89-76ec286b90c0"
+                },
+                {
+                    "srno": 4,
+                    "name": "GREEN SALAD",
+                    "price": 100,
+                    "veg_nonveg": "VEG",
+                    "id": "d906b2dc-6e9f-427f-ae81-0cd8f548ed00"
+                }
+            ]
+        }
+    },
+    {
+        "category": "MOMOS",
+        "subcategory": {
+            "MOMO": [
+                {
+                    "srno": 1,
+                    "name": "STEAMED MOMOS (VEG)",
+                    "price": 140,
+                    "veg_nonveg": "VEG",
+                    "id": "6ac053ab-e188-4d7f-9591-0ded3b794154"
+                },
+                {
+                    "srno": 2,
+                    "name": "STEAMED MOMOS (CHICKEN)",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "e96a10d5-671a-4121-84f3-3cbb16533ab4"
+                },
+                {
+                    "srno": 3,
+                    "name": "PAN FRIED MOMOS (VEG)",
+                    "price": 160,
+                    "veg_nonveg": "VEG",
+                    "id": "677841a8-a538-4cff-acd4-15b7fda7253f"
+                },
+                {
+                    "srno": 4,
+                    "name": "PAN FRIED MOMOS (CHICKEN)",
+                    "price": 190,
+                    "veg_nonveg": "NON",
+                    "id": "c3011025-43af-4fb3-b7dc-44e02ab61f2f"
+                },
+                {
+                    "srno": 5,
+                    "name": "FRIED MOMOS (VEG)",
+                    "price": 150,
+                    "veg_nonveg": "VEG",
+                    "id": "4235dac3-bb8e-49ae-809c-bf1c15d3def5"
+                },
+                {
+                    "srno": 6,
+                    "name": "FRIED MOMOS (CHICKEN)",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "2850c9a8-e461-41c9-ade9-a4c220301f01"
+                },
+                {
+                    "srno": 7,
+                    "name": "KURKURE MOMOS (VEG)",
+                    "price": 175,
+                    "veg_nonveg": "VEG",
+                    "id": "f3f461bd-42a9-40ff-80dc-45376828c5aa"
+                },
+                {
+                    "srno": 8,
+                    "name": "KURKURE MOMOS (CHICKEN)",
+                    "price": 200,
+                    "veg_nonveg": "NON",
+                    "id": "0bd9902f-4411-40b7-8297-75c274eda557"
+                },
+                {
+                    "srno": 9,
+                    "name": "SCHEZWAN TOSSED MOMOS (VEG)",
+                    "price": 170,
+                    "veg_nonveg": "VEG",
+                    "id": "dd78d637-807c-448c-a8ef-4041c6460fcd"
+                },
+                {
+                    "srno": 10,
+                    "name": "SCHEZWAN TOSSED MOMOS (CHICKEN)",
+                    "price": 190,
+                    "veg_nonveg": "NON",
+                    "id": "2f199edb-5f21-4d93-8bc7-e4d69279edd9"
+                },
+                {
+                    "srno": 11,
+                    "name": "BUTTER GARLIC MOMOS (VEG)",
+                    "price": 170,
+                    "veg_nonveg": "VEG",
+                    "id": "484b3a94-c5d0-4fcd-a1ef-a8c5005e2067"
+                },
+                {
+                    "srno": 12,
+                    "name": "BUTTER GARLIC MOMOS (CHICKEN)",
+                    "price": 200,
+                    "veg_nonveg": "NON",
+                    "id": "322c235d-061f-4d1e-9b5e-a90599961ce8"
+                },
+                {
+                    "srno": 13,
+                    "name": "MOMOS PLATTER (VEG)",
+                    "price": 300,
+                    "veg_nonveg": "VEG",
+                    "id": "152d75b6-c100-49ea-b1f2-57a3fa05f47d"
+                },
+                {
+                    "srno": 14,
+                    "name": "MOMOS PLATTER (CHICKEN)",
+                    "price": 380,
+                    "veg_nonveg": "NON",
+                    "id": "c3a85e63-634b-48b5-99ab-9f4634fe1d5b"
+                },
+                {
+                    "srno": 15,
+                    "name": "PANEER MOMO",
+                    "price": 195,
+                    "veg_nonveg": "VEG",
+                    "id": "fb0b4f31-034e-4f72-997c-4122435590ba"
+                },
+                {
+                    "srno": 16,
+                    "name": "TANDOORI MOMOS (VEG)",
+                    "price": 180,
+                    "veg_nonveg": "VEG",
+                    "id": "d7d89c45-050b-439f-9324-c7dad7523ddb"
+                },
+                {
+                    "srno": 17,
+                    "name": "TANDOORI MOMOS (CHICKEN)",
+                    "price": 220,
+                    "veg_nonveg": "NON",
+                    "id": "d2171ab0-25f6-41c5-ae48-209c3a68b833"
+                }
+            ]
+        }
+    },
+    {
+        "category": "TANDOOR & KEBABS",
+        "subcategory": {
+            "GRILLED AND TANDOOR": [
+                {
+                    "srno": 1,
+                    "name": "TANDOORI CHICKEN FULL",
+                    "price": 400,
+                    "veg_nonveg": "NON",
+                    "id": "ba85caef-ad9d-4449-860b-1decb63fe910"
+                },
+                {
+                    "srno": 2,
+                    "name": "TANDOORI CHICKEN HALF",
+                    "price": 220,
+                    "veg_nonveg": "NON",
+                    "id": "ca96a937-ac94-4408-81ec-5efcd8feb78c"
+                },
+                {
+                    "srno": 3,
+                    "name": "TANGDI KEBAB",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "182134a3-5a74-40ca-b0f5-4c3faf000f63"
+                },
+                {
+                    "srno": 8,
+                    "name": "GRILLED MASHROOM TIKKA ",
+                    "price": 220,
+                    "veg_nonveg": "VEG",
+                    "id": "357c11b6-eb0c-4e46-adfd-052272e3d502"
+                },
+                {
+                    "srno": 9,
+                    "name": "TANDOORI BROCCOLI",
+                    "price": 290,
+                    "veg_nonveg": "VEG",
+                    "id": "e5389ae2-651b-4bbe-926e-c79e5d2f51a7"
+                },
+                {
+                    "srno": 10,
+                    "name": "TANDOORI BABY CORN",
+                    "price": 240,
+                    "veg_nonveg": "VEG",
+                    "id": "3bcced5b-c4e4-4c3d-ab78-e8451a6b1c02"
+                },
+                {
+                    "srno": 11,
+                    "name": "TANDOORI GOBI",
+                    "price": 190,
+                    "veg_nonveg": "VEG",
+                    "id": "702f35bb-bd86-4fae-9ca9-b1667c9c4757"
+                },
+                {
+                    "srno": 14,
+                    "name": "TANDOORI WINGS",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "67d791df-515e-4224-8164-c73479cebc9b"
+                },
+                {
+                    "srno": 15,
+                    "name": "CHICKEN AFGHANI KEBAB",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "03aa0cc2-9d47-4fd6-ac23-7a5f7a9896c1"
+                },
+                {
+                    "srno": 16,
+                    "name": "GRILLED CHICKEN LOLYPOP",
+                    "price": 230,
+                    "veg_nonveg": "NON",
+                    "id": "5b66929b-08e7-4f26-9dd1-b6979ad4a0dd"
+                },
+                {
+                    "srno": 17,
+                    "name": "TANDOORI GRILLED PRAWNS",
+                    "price": 380,
+                    "veg_nonveg": "NON",
+                    "id": "9c3fa249-f4ea-4610-b09f-a29ff5b39a34"
+                },
+                {
+                    "srno": 18,
+                    "name": "GRILLED MACKREL",
+                    "price": 200,
+                    "veg_nonveg": "NON",
+                    "id": "df648516-4b91-4722-8f80-c9f340d2a35a"
+                },
+                {
+                    "srno": 19,
+                    "name": "TANDOORI MALAI BROCOLLI",
+                    "price": 295,
+                    "veg_nonveg": "VEG",
+                    "id": "327bea28-41ad-43d7-b436-d9c8a7d180eb"
+                }
+            ],
+            "KEBAB": [
+                {
+                    "srno": 1,
+                    "name": "MALAI KEBAB",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "78f91428-9812-411e-a7eb-62816d509033"
+                },
+                {
+                    "srno": 2,
+                    "name": "HARIYALI CHICKEN TIKKA",
+                    "price": 270,
+                    "veg_nonveg": "NON",
+                    "id": "cf8d725a-2acb-492c-8d8e-cd499dff9186"
+                },
+                {
+                    "srno": 3,
+                    "name": "CHICKEN SHISH TAOUK",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "51b08db8-ba25-4232-b832-dd0925e2caa6"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN TIKKA",
+                    "price": 270,
+                    "veg_nonveg": "NON",
+                    "id": "0e460c79-92c8-4dee-aaf0-90e79ec8437d"
+                },
+                {
+                    "srno": 5,
+                    "name": "CHICKEN SEEKH KABAB",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "f8861440-0ec8-40e2-a722-0f0854e7cf52"
+                },
+                {
+                    "srno": 6,
+                    "name": "MUTTON SEEKH KABAB",
+                    "price": 340,
+                    "veg_nonveg": "NON",
+                    "id": "545f9224-243e-498d-aa77-fefc20494436"
+                },
+                {
+                    "srno": 7,
+                    "name": "PANEER HARYALI KABAB",
+                    "price": 240,
+                    "veg_nonveg": "VEG",
+                    "id": "bb33c461-ff17-46aa-b131-70a83a959d6d"
+                },
+                {
+                    "srno": 12,
+                    "name": "PANEER TIKKA",
+                    "price": 220,
+                    "veg_nonveg": "VEG",
+                    "id": "e640d729-cbf5-404a-97f5-7aa7cdf2b22f"
+                },
+                {
+                    "srno": 13,
+                    "name": "PANEER MALAI TIKKA",
+                    "price": 250,
+                    "veg_nonveg": "VEG",
+                    "id": "fb22b281-eedc-4ea5-b86e-6b5466ce400c"
+                },
+                {
+                    "srno": 20,
+                    "name": "VEG SEEKH KEBAB",
+                    "price": 230,
+                    "veg_nonveg": "VEG",
+                    "id": "b33a0c3d-6594-471d-b2a4-7bca0e5551de"
+                }
+            ],
+            "BREAD": [
+                {
+                    "srno": 1,
+                    "name": "TANDOORI ROTI",
+                    "price": 15,
+                    "veg_nonveg": "VEG",
+                    "id": "a50e60e5-789b-4d48-8a6f-ca5abdc5383c"
+                },
+                {
+                    "srno": 2,
+                    "name": "BUTTER ROTI",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "0a4cff9b-3b82-4ca2-8b6c-c1b50e9a1364"
+                },
+                {
+                    "srno": 3,
+                    "name": "BUTTER NAAN",
+                    "price": 40,
+                    "veg_nonveg": "VEG",
+                    "id": "b5017036-1717-4dc0-9bb2-53a05cfefee7"
+                },
+                {
+                    "srno": 4,
+                    "name": "PLAIN NAAN",
+                    "price": 30,
+                    "veg_nonveg": "VEG",
+                    "id": "33848993-29f2-4090-99c5-64aeebe69983"
+                },
+                {
+                    "srno": 5,
+                    "name": "CHEESE GARLIC NAAN",
+                    "price": 120,
+                    "veg_nonveg": "VEG",
+                    "id": "6db5ffca-d71b-4119-9b45-69987adb534e"
+                },
+                {
+                    "srno": 6,
+                    "name": "TANDOORI BUTTER PARATHA",
+                    "price": 40,
+                    "veg_nonveg": "VEG",
+                    "id": "c70cc4a2-08f3-4ac5-9898-bc07555f195f"
+                },
+                {
+                    "srno": 7,
+                    "name": "TANDOORI PLAIN PARATHA",
+                    "price": 30,
+                    "veg_nonveg": "VEG",
+                    "id": "73550897-570c-485b-863b-6294ceee51a6"
+                },
+                {
+                    "srno": 8,
+                    "name": "GARLIC NAAN",
+                    "price": 45,
+                    "veg_nonveg": "VEG",
+                    "id": "740a9bb7-d41e-4855-90fa-3c707afd1178"
+                },
+                {
+                    "srno": 9,
+                    "name": "ONION BUTTER KULCHA",
+                    "price": 45,
+                    "veg_nonveg": "VEG",
+                    "id": "e4cf560d-2fbb-44d6-b0bc-18d40131afc3"
+                },
+                {
+                    "srno": 10,
+                    "name": "BUTTER GARLIC NAAN",
+                    "price": 50,
+                    "veg_nonveg": "VEG",
+                    "id": "8d59adcf-144c-488c-ab75-74e203362c6f"
+                }
+            ]
+        }
+    },
+    {
+        "category": "CHINESE",
+        "subcategory": {
+            "RICE": [
+                {
+                    "srno": 1,
+                    "name": "VEG COMBINATION FRIED RICE",
+                    "price": 155,
+                    "veg_nonveg": "VEG",
+                    "id": "835544a4-0325-4b76-b8d5-077cc8ac0fd5"
+                },
+                {
+                    "srno": 2,
+                    "name": "VEG FRIED RICE",
+                    "price": 145,
+                    "veg_nonveg": "VEG",
+                    "id": "a6d4087e-358d-4c87-9304-f96ecf3b4908"
+                },
+                {
+                    "srno": 3,
+                    "name": "CHICKEN FRIED RICE",
+                    "price": 170,
+                    "veg_nonveg": "NON",
+                    "id": "5c337761-3ade-42e4-a8b1-9b0e563ebfdc"
+                },
+                {
+                    "srno": 4,
+                    "name": "EGG FRIED RICE",
+                    "price": 160,
+                    "veg_nonveg": "NON",
+                    "id": "7e0ea9b5-f06e-49dc-a6dd-421b21a31646"
+                },
+                {
+                    "srno": 5,
+                    "name": "VEG SCHEZWAN FRIED RICE",
+                    "price": 155,
+                    "veg_nonveg": "VEG",
+                    "id": "8623f844-0b58-4ad7-9897-eccd5b0cf97a"
+                },
+                {
+                    "srno": 6,
+                    "name": "CHICKEN SCHEZWAN FRIED RICE",
+                    "price": 190,
+                    "veg_nonveg": "NON",
+                    "id": "7e219a51-5b8e-4937-9411-88918eeb2c32"
+                },
+                {
+                    "srno": 7,
+                    "name": "CHEFS SPECIAL VEG FRIED RICE",
+                    "price": 185,
+                    "veg_nonveg": "VEG",
+                    "id": "b433a89e-4bb4-4b89-9e5d-b0f10392b77c"
+                },
+                {
+                    "srno": 8,
+                    "name": "CHEFS SPECIAL NON-VEG FRIED RICE",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "c1dd3a46-a12c-456f-9c28-f2316ff02402"
+                },
+                {
+                    "srno": 5,
+                    "name": "MIX SEAFOOD FRIED RICE",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "14fef252-e0a8-47fa-bcd4-02ec0792564b"
+                }
+            ],
+            "NOODLES": [
+                {
+                    "srno": 1,
+                    "name": "VEG NOODLES",
+                    "price": 150,
+                    "veg_nonveg": "VEG",
+                    "id": "11f6543f-5a63-4b17-bf35-969e587f7723"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN NOODLES",
+                    "price": 170,
+                    "veg_nonveg": "NON",
+                    "id": "d0b860f9-95cb-484c-9a92-89eb59d2d0f5"
+                },
+                {
+                    "srno": 3,
+                    "name": "VEG SCHEZWAN NOODLES",
+                    "price": 160,
+                    "veg_nonveg": "VEG",
+                    "id": "93323bcf-6fdc-4368-a1a2-d7e403d374da"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN SCHEZWAN NOODLES",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "602ab971-5d9e-4c4f-bd7d-4241fa2669f8"
+                }
+            ]
+        }
+    },
+    {
+        "category": "CONTINENTAL",
+        "subcategory": {
+            "MAINS": [
+                {
+                    "srno": 1,
+                    "name": "GRILLED CHICKEN BREAST WITH SAUTED VEGGIES DIP",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "42c772eb-e2fa-4580-a7cf-03df2d352b22"
+                },
+                {
+                    "srno": 2,
+                    "name": "GRILLED FISH WITH CHIPS AND BUTTER RICE",
+                    "price": 380,
+                    "veg_nonveg": "NON",
+                    "id": "b556d143-2943-43f3-9e53-81805c3bffbc"
+                },
+                {
+                    "srno": 3,
+                    "name": "DEEP FRIED CHICKEN DRUMSTICK WITH BLACK PEPPER SAUCE",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "f1653615-3df2-405e-82e0-3b199a63f236"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN WITH MASHROOM CREAM SAUTED VEGIES AND SAUCE",
+                    "price": 380,
+                    "veg_nonveg": "NON",
+                    "id": "38affdc3-096c-4803-8d0a-07b3048fee0f"
+                },
+                {
+                    "srno": 5,
+                    "name": "GRILLED PANEER WITH HERB RICE & SAUTED VEGGIES",
+                    "price": 350,
+                    "veg_nonveg": "VEG",
+                    "id": "122d2733-a37f-4f23-a7df-3ff85e0ea452"
+                }
+            ]
+        }
+    },
+    {
+        "category": "THALI",
+        "subcategory": {
+            "THALI": [
+                {
+                    "srno": 1,
+                    "name": "SPECIAL FISH THALI",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "225c4e3a-c8f8-4073-b1c1-98293d9fec4d"
+                },
+                {
+                    "srno": 2,
+                    "name": "FISH THALI",
+                    "price": 150,
+                    "veg_nonveg": "NON",
+                    "id": "88c4a970-fc20-40aa-ae4e-973b568cb8a3"
+                },
+                {
+                    "srno": 3,
+                    "name": "VEG THALI",
+                    "price": 140,
+                    "veg_nonveg": "VEG",
+                    "id": "b84f194c-9dd3-4e7e-a2fa-d5fa57bad39c"
+                }
+            ]
+        }
+    },
+    {
+        "category": "GOAN & SEAFOOD",
+        "subcategory": {
+            "GRAVY": [
+                {
+                    "srno": 1,
+                    "name": "CHICKEN CAFREAL",
+                    "price": 240,
+                    "veg_nonveg": "NON",
+                    "id": "1e792ca9-d1a0-4431-abd8-c655403ef406"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN XACUTI",
+                    "price": 220,
+                    "veg_nonveg": "NON",
+                    "id": "11bacc8d-2ae4-4efb-9612-6c9fcf065d13"
+                }
+            ],
+            "RICE": [
+                {
+                    "srno": 1,
+                    "name": "PRAWNS PEAS PULAV",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "69cd85b0-e073-46e9-bead-b12748111a4c"
+                }
+            ],
+            "CURRY": [
+                {
+                    "srno": 1,
+                    "name": "PRAWNS CURRY",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "d26e8e9f-bb7d-4618-b869-9287e797c010"
+                },
+                {
+                    "srno": 2,
+                    "name": "KINGFISH CURRY",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "e443b57a-b5cc-4585-ad89-777c8f44b10c"
+                },
+                {
+                    "srno": 3,
+                    "name": "CHONAK CURRY",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "7c789ac9-093c-4586-b5e2-e33518062a73"
+                },
+                {
+                    "srno": 4,
+                    "name": "TARLE CURRY",
+                    "price": 150,
+                    "veg_nonveg": "NON",
+                    "id": "e7c97f03-5e29-400a-a710-758b6ef6cfd2"
+                },
+                {
+                    "srno": 5,
+                    "name": "BANGDA CURRY",
+                    "price": 150,
+                    "veg_nonveg": "NON",
+                    "id": "88b55c1b-c8fb-449d-9393-cafd7439f4d9"
+                },
+                {
+                    "srno": 6,
+                    "name": "VERLI CURRY",
+                    "price": 160,
+                    "veg_nonveg": "NON",
+                    "id": "d62c332d-2aba-45d0-b26a-b0ef6ea8a675"
+                }
+            ],
+            "STARTER": [
+                {
+                    "srno": 1,
+                    "name": "PRAWNS (RAWA FRY)",
+                    "price": "APS",
+                    "veg_nonveg": "NON",
+                    "id": "c6f2b07d-88a9-46d4-86a7-d5fe7d3368ee"
+                },
+                {
+                    "srno": 2,
+                    "name": "PRAWNS (MASALA FRY)",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "bc0c130c-50d6-4115-a154-395e2bc72543"
+                },
+                {
+                    "srno": 3,
+                    "name": "KINGFISH (RAWA FRY)",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "9cb381f1-7dab-4a3f-903d-e17ecd3cb27c"
+                },
+                {
+                    "srno": 4,
+                    "name": "KINGFISH (MASALA FRY)",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "114ad3d7-3382-4f3e-b34c-c132159e0cf9"
+                },
+                {
+                    "srno": 5,
+                    "name": "LEPO (RAWA FRY)",
+                    "price": 190,
+                    "veg_nonveg": "NON",
+                    "id": "a2f7d075-361a-4771-ab78-84244e723e89"
+                },
+                {
+                    "srno": 6,
+                    "name": "LEPO (MASALA FRY)",
+                    "price": 190,
+                    "veg_nonveg": "NON",
+                    "id": "cc3034d4-e057-4299-99a9-1b760ce479a6"
+                },
+                {
+                    "srno": 7,
+                    "name": "MACKEREL (RAWA FRY)",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "0a91a26b-8e23-4232-a81f-2990aa1f3a1d"
+                },
+                {
+                    "srno": 8,
+                    "name": "MACKEREL (MASALA FRY)",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "8744d788-ced5-4ad0-abe8-39e6074a8b4c"
+                },
+                {
+                    "srno": 9,
+                    "name": "MACKEREL (RECHEADO)",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "f2ac4aa1-60ef-47b3-95f0-3702edeb07a7"
+                },
+                {
+                    "srno": 10,
+                    "name": "CHONAK (RAWA FRY)",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "9510ed4b-21dc-4a7e-852c-eecdaae7d932"
+                },
+                {
+                    "srno": 11,
+                    "name": "CHONAK (MASALA FRY)",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "3e97871c-b3f4-4191-9c80-91e769232f12"
+                },
+                {
+                    "srno": 12,
+                    "name": "SILVER FISH (RAWA FRY)",
+                    "price": 160,
+                    "veg_nonveg": "NON",
+                    "id": "b88525da-376f-4f6f-b5ff-9f12244faba2"
+                },
+                {
+                    "srno": 13,
+                    "name": "SILVER FISH (MASALA FRY)",
+                    "price": 160,
+                    "veg_nonveg": "NON",
+                    "id": "2632ba4c-4af6-400c-97cd-e92e3d5560dc"
+                },
+                {
+                    "srno": 14,
+                    "name": "SQUID (RAWA FRY)",
+                    "price": 290,
+                    "veg_nonveg": "NON",
+                    "id": "45b1731a-0bc4-4236-9a8a-0b42cf2ed45e"
+                },
+                {
+                    "srno": 15,
+                    "name": "SQUID (MASALA FRY)",
+                    "price": 290,
+                    "veg_nonveg": "NON",
+                    "id": "be053e2f-87e0-41d9-91f9-3fd5dc8f69c0"
+                },
+                {
+                    "srno": 16,
+                    "name": "MODSO (RAWA FRY)",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "1a1de33e-10d1-42f1-9743-29bb8a3908fc"
+                },
+                {
+                    "srno": 17,
+                    "name": "MODSO (MASALA FRY)",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "dd005cb3-a06a-46dc-8a0d-5d34c4d4dbd7"
+                },
+                {
+                    "srno": 18,
+                    "name": "CHILLY CHICKEN FRY",
+                    "price": 215,
+                    "veg_nonveg": "NON",
+                    "id": "97ec8568-88a5-4c9d-84a5-1c92a63eadd6"
+                },
+                {
+                    "srno": 19,
+                    "name": "PRAWNS CHILLY FRY",
+                    "price": 300,
+                    "veg_nonveg": "NON",
+                    "id": "f15b261c-97ce-47a7-8adc-5a970d846d49"
+                }
+            ]
+        }
+    },
+    {
+        "category": "INDIAN",
+        "subcategory": {
+            "GRAVY": [
+                {
+                    "srno": 1,
+                    "name": "VEG KOLHAPURI",
+                    "price": 195,
+                    "veg_nonveg": "VEG",
+                    "id": "8acbbb15-5358-48c9-8c97-d8df2fc110fa"
+                },
+                {
+                    "srno": 2,
+                    "name": "VEG KADAI",
+                    "price": 195,
+                    "veg_nonveg": "VEG",
+                    "id": "48328368-87f3-4c05-82ee-3f65a0e30f12"
+                },
+                {
+                    "srno": 3,
+                    "name": "VEG HANDI",
+                    "price": 195,
+                    "veg_nonveg": "VEG",
+                    "id": "68d9a1c4-71bd-4fed-b767-c599d87f3e5a"
+                },
+                {
+                    "srno": 4,
+                    "name": "MUTTER MUSHROOM MASALA",
+                    "price": 200,
+                    "veg_nonveg": "VEG",
+                    "id": "2880ba19-bdd6-41c1-94f5-d7b2c8e50b7c"
+                },
+                {
+                    "srno": 5,
+                    "name": "PANEER KADAI",
+                    "price": 200,
+                    "veg_nonveg": "VEG",
+                    "id": "b34ba90d-5955-4733-ae21-e261aa0c687f"
+                },
+                {
+                    "srno": 6,
+                    "name": "PANEER BUTTER MASALA",
+                    "price": 200,
+                    "veg_nonveg": "VEG",
+                    "id": "c9b9c8e4-8110-47ed-8ed4-3ce78fecd305"
+                },
+                {
+                    "srno": 7,
+                    "name": "PANEER MASALA",
+                    "price": 200,
+                    "veg_nonveg": "VEG",
+                    "id": "b070ebf1-dcde-4e6f-86d1-04bf5ca3a980"
+                },
+                {
+                    "srno": 8,
+                    "name": "PANEER TIKKA MASALA",
+                    "price": 260,
+                    "veg_nonveg": "VEG",
+                    "id": "c4ca2016-c7ff-40a5-b257-ace04302360e"
+                },
+                {
+                    "srno": 9,
+                    "name": "MATAR PANEER",
+                    "price": 200,
+                    "veg_nonveg": "VEG",
+                    "id": "267eb8b6-07f7-4850-83e8-ccfeb3ff081b"
+                },
+                {
+                    "srno": 10,
+                    "name": "PALAK PANEER",
+                    "price": 200,
+                    "veg_nonveg": "VEG",
+                    "id": "0e7031dd-11d5-4a97-bc51-3d70ee53f90a"
+                },
+                {
+                    "srno": 2,
+                    "name": "DAL TADKA",
+                    "price": 140,
+                    "veg_nonveg": "VEG",
+                    "id": "ee2f14c3-c8fe-4d1d-af69-a1a8d7155e84"
+                },
+                {
+                    "srno": 3,
+                    "name": "DAL FRY",
+                    "price": 140,
+                    "veg_nonveg": "VEG",
+                    "id": "20eff719-4631-4b32-ae31-80b66bca15d0"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHEFS SPECIAL VEG GRAVY ",
+                    "price": 220,
+                    "veg_nonveg": "VEG",
+                    "id": "29c32aab-1c43-48e9-85d8-a44112d7b3e3"
+                },
+                {
+                    "srno": 5,
+                    "name": "BUTTER CHICKEN",
+                    "price": 230,
+                    "veg_nonveg": "NON",
+                    "id": "640cff91-d21f-4ce9-b19d-5cedeae2d843"
+                },
+                {
+                    "srno": 6,
+                    "name": "CHICKEN TIKKA MASALA",
+                    "price": 300,
+                    "veg_nonveg": "NON",
+                    "id": "70043965-62ed-4c40-8ee2-846c19e4617b"
+                },
+                {
+                    "srno": 7,
+                    "name": "CHICKEN KORMA",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "63287150-12dc-4c1d-bdb2-8540521b89a1"
+                },
+                {
+                    "srno": 8,
+                    "name": "CHEFS SPECIAL NON-VEG GRAVY",
+                    "price": 300,
+                    "veg_nonveg": "NON",
+                    "id": "ad0ab5fc-2aad-4a5f-adb4-7c044472c7f1"
+                },
+                {
+                    "srno": 9,
+                    "name": "VEG MAKHANI",
+                    "price": 195,
+                    "veg_nonveg": "VEG",
+                    "id": "6226126b-1b89-4270-bf47-af15381a8531"
+                },
+                {
+                    "srno": 11,
+                    "name": "VEG HYDERABADI",
+                    "price": 195,
+                    "veg_nonveg": "VEG",
+                    "id": "62f85055-8006-4e90-875b-4d6c8577fe13"
+                },
+                {
+                    "srno": 12,
+                    "name": "CHICKEN KOLHAPURI",
+                    "price": 230,
+                    "veg_nonveg": "NON",
+                    "id": "3e8f29a4-b245-4ceb-94dc-817352ac98aa"
+                },
+                {
+                    "srno": 13,
+                    "name": "CHICKEN HANDI",
+                    "price": 230,
+                    "veg_nonveg": "NON",
+                    "id": "362985cd-f436-4c67-b43a-361dc2a29dbe"
+                },
+                {
+                    "srno": 14,
+                    "name": "CHICKEN KADAI",
+                    "price": 230,
+                    "veg_nonveg": "NON",
+                    "id": "349f4e8c-9a80-494a-a5ad-760f2f4eaa35"
+                },
+                {
+                    "srno": 15,
+                    "name": "CHICKEN MASALA",
+                    "price": 230,
+                    "veg_nonveg": "NON",
+                    "id": "1d6043ae-f804-41c5-8d7a-fae0d3870f7f"
+                },
+                {
+                    "srno": 16,
+                    "name": "MUTTON MASALA",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "6c874a67-f5c8-4e8f-b369-589230cae05b"
+                },
+                {
+                    "srno": 17,
+                    "name": "MUTTON KADAI",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "a0fc37a0-96f7-4cba-aa65-6ca863a0d273"
+                },
+                {
+                    "srno": 18,
+                    "name": "MUTTON HANDI",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "2ca8ecce-5866-49ba-aa8c-694aaaba9f2c"
+                }
+            ],
+            "RICE": [
+                {
+                    "srno": 1,
+                    "name": "STEAMED RICE",
+                    "price": 90,
+                    "veg_nonveg": "VEG",
+                    "id": "19a3915a-e9e2-475b-b221-f3f80b2d2069"
+                },
+                {
+                    "srno": 10,
+                    "name": "VEG PULAO",
+                    "price": 160,
+                    "veg_nonveg": "VEG",
+                    "id": "5d5bdfb7-d3a8-4646-82a7-70a3ecdf5034"
+                },
+                {
+                    "srno": 6,
+                    "name": "JIRA RICE",
+                    "price": 120,
+                    "veg_nonveg": "VEG",
+                    "id": "d09618e7-069c-4559-8de4-6278ffe02786"
+                }
+            ],
+            "BIRYANI": [
+                {
+                    "srno": 1,
+                    "name": "VEG BIRYANI",
+                    "price": 170,
+                    "veg_nonveg": "VEG",
+                    "id": "8a2a07e7-8a86-4408-af1e-21215c374613"
+                },
+                {
+                    "srno": 2,
+                    "name": "EGG BIRYANI",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "d98496c7-2e20-4137-848d-119e5fda3889"
+                },
+                {
+                    "srno": 3,
+                    "name": "PRAWNS BIRYANI",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "e9f68942-8faf-45c6-a653-d34b2af56a53"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN BIRYANI",
+                    "price": 260,
+                    "veg_nonveg": "NON",
+                    "id": "0801a840-3bcc-421a-b4e2-5002ebd2ab65"
+                },
+                {
+                    "srno": 5,
+                    "name": "MUTTON BIRYANI",
+                    "price": 380,
+                    "veg_nonveg": "NON",
+                    "id": "0dd42d99-c5d8-4dd0-9ad7-d5e41b3c02c7"
+                }
+            ]
+        }
+    },
+    {
+        "category": "DESSERTS",
+        "subcategory": {
+            "2 PCS": [
+                {
+                    "srno": 1,
+                    "name": "GULAB JAMUN",
+                    "price": 60,
+                    "veg_nonveg": "VEG",
+                    "id": "cb20dd37-ccb6-47f5-b896-d598a43e3270"
+                }
+            ],
+            "SINGLE SCOOP": [
+                {
+                    "srno": 1,
+                    "name": "ICE CREAM",
+                    "price": 60,
+                    "veg_nonveg": "VEG",
+                    "id": "9e7a9606-89f2-416f-9bcd-b849bed4ef09"
+                }
+            ]
+        }
+    },
+    {
+        "category": "NON ALCOHOL DRINKS",
+        "subcategory": {
+            "MOCKTAIL": [
+                {
+                    "srno": 1,
+                    "name": "LIME MOJITO",
+                    "price": 100,
+                    "veg_nonveg": "VEG",
+                    "id": "54a60039-883e-48ce-9aa7-c0d35bfd115e"
+                },
+                {
+                    "srno": 2,
+                    "name": "ORANGE MOJITO",
+                    "price": 110,
+                    "veg_nonveg": "VEG",
+                    "id": "2a90f68d-c00d-43be-99f1-9457f16c6efc"
+                },
+                {
+                    "srno": 3,
+                    "name": "BLUE LAGOON",
+                    "price": 100,
+                    "veg_nonveg": "VEG",
+                    "id": "da65620b-c8e7-42e9-9d9c-5ab4a02b97c0"
+                },
+                {
+                    "srno": 4,
+                    "name": "FRUIT PUNCH",
+                    "price": 150,
+                    "veg_nonveg": "VEG",
+                    "id": "2cd9f47b-eb0c-442b-bb2b-9b54b2532e46"
+                },
+                {
+                    "srno": 5,
+                    "name": "VIRGIN PINA-COLADA",
+                    "price": 150,
+                    "veg_nonveg": "VEG",
+                    "id": "9e7fe4e0-a82f-4066-8735-bdff8ed08666"
+                },
+                {
+                    "srno": 6,
+                    "name": "GINGER PUNCH SODA",
+                    "price": 60,
+                    "veg_nonveg": "VEG",
+                    "id": "d3a34b2f-60f0-4dce-8115-f5a57521f4d4"
+                },
+                {
+                    "srno": 7,
+                    "name": "CHEF'S BHOJAN SPECIAL MOCKTAIL",
+                    "price": 160,
+                    "veg_nonveg": "VEG",
+                    "id": "505a3cab-dae5-4628-8d64-9019f6caf5c7"
+                },
+                {
+                    "srno": 8,
+                    "name": "POMEGRANETES REFRESHMENT",
+                    "price": 150,
+                    "veg_nonveg": "VEG",
+                    "id": "a243b40c-c6e6-410c-975b-80a4f0348f91"
+                }
+            ],
+            "BEVERAGES": [
+                {
+                    "srno": 1,
+                    "name": "WATER BOTTLE SMALL",
+                    "price": 10,
+                    "veg_nonveg": "VEG",
+                    "id": "ab7380e0-8ad7-4c27-9529-a59d6d7aadc2"
+                },
+                {
+                    "srno": 2,
+                    "name": "WATER BOTTLE BIG",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "c161c112-5645-4e14-8eb6-4bc136997eeb"
+                },
+                {
+                    "srno": 3,
+                    "name": "PEPSI",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "d5f7c863-2f0f-4491-a7b6-46721f73e986"
+                },
+                {
+                    "srno": 4,
+                    "name": "THUMBS UP",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "2861f662-786b-40dc-88a3-98e80e1aac0a"
+                },
+                {
+                    "srno": 5,
+                    "name": "COKE",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "f6e5a34b-4410-471e-a727-fa71095b048d"
+                },
+                {
+                    "srno": 6,
+                    "name": "7 UP",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "010947f2-52a1-4e92-a2b8-91eeb89a1a21"
+                },
+                {
+                    "srno": 7,
+                    "name": "SPRITE",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "72b959c5-3eba-47a0-bb45-3a1a82743589"
+                },
+                {
+                    "srno": 8,
+                    "name": "DEW",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "b73eb8d3-66d4-4ef4-b108-2053dc9bf356"
+                },
+                {
+                    "srno": 9,
+                    "name": "SLICE",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "775de199-d2c7-4da5-bbc2-d4e832dca8fc"
+                },
+                {
+                    "srno": 10,
+                    "name": "LIMCA",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "396bada0-5084-4262-ae0e-fa3110c3f264"
+                },
+                {
+                    "srno": 11,
+                    "name": "MAZA",
+                    "price": 20,
+                    "veg_nonveg": "VEG",
+                    "id": "1ea51db3-05d6-41d0-b1fa-1db21a241e2d"
+                },
+                {
+                    "srno": 12,
+                    "name": "THUMBS UP 750ML",
+                    "price": 50,
+                    "veg_nonveg": "VEG",
+                    "id": "8f2dbb16-32da-45b2-9bfc-49e8b27024d8"
+                },
+                {
+                    "srno": 13,
+                    "name": "COKE 750ML ",
+                    "price": 50,
+                    "veg_nonveg": "VEG",
+                    "id": "3a4e5017-3587-4ce1-b64f-f6cd930a6c6e"
+                },
+                {
+                    "srno": 14,
+                    "name": "SPRITE 750ML ",
+                    "price": 50,
+                    "veg_nonveg": "VEG",
+                    "id": "977d8078-47a8-440a-8b18-7462bb5a7ff1"
+                },
+                {
+                    "srno": 15,
+                    "name": "CLUB SODA 750ML",
+                    "price": 30,
+                    "veg_nonveg": "VEG",
+                    "id": "19e46ffc-c2a8-4867-8a17-4523d782c510"
+                },
+                {
+                    "srno": 16,
+                    "name": "SODA",
+                    "price": 10,
+                    "veg_nonveg": "VEG",
+                    "id": "aa438bf8-4e5e-45b7-8fc8-7ec79e19a9b3"
+                },
+                {
+                    "srno": 17,
+                    "name": "FRESH LIME SODA",
+                    "price": 40,
+                    "veg_nonveg": "VEG",
+                    "id": "d85a59da-95a8-4686-a105-b21f2f3a4255"
                 }
             ]
         }

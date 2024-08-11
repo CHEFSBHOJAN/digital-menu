@@ -15,10 +15,10 @@ function MyComponent({ outlet }) {
     setLoading(true)
     let url
     if (outlet === "Margao") {
-      url = "https://chefs-bhojan-website-backend-5v3d.onrender.com/api/getmenumargao"
+      url = "http://127.0.0.1:8000/api/getmenumargao"
     }
     else {
-      url = "https://chefs-bhojan-website-backend-5v3d.onrender.com/api/getmenuponda"
+      url = "http://127.0.0.1:8000/api/getmenuponda"
     }
     fetch(url)
       .then((response) => response.json())
@@ -32,7 +32,6 @@ function MyComponent({ outlet }) {
       })
   }, [])
 
-  console.log(menu)
 
   const handleCategoryChange = (category) => {
     setActiveCategory(category)
@@ -79,7 +78,7 @@ function MyComponent({ outlet }) {
         onCategoryChange={handleCategoryChange}
       />
       <h2 className="self-start mt-5 text-xl font-bold text-black">
-        {activeCategory}
+        {activeCategory.charAt(0).toUpperCase() + activeCategory.slice(1).toLowerCase()}
       </h2>
       <hr className="shrink-0 h-px border-white" />
       {loading ? (
