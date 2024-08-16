@@ -98,6 +98,41 @@
         }
     },
     {
+        "category": "SALAD",
+        "subcategory": {
+            "SALAD": [
+                {
+                    "srno": 1,
+                    "name": "GREEK SALAD",
+                    "price": 170,
+                    "veg_nonveg": "VEG",
+                    "id": "0ce415da-bdb6-41df-b20d-677314214741"
+                },
+                {
+                    "srno": 2,
+                    "name": "MIX SALAD WITH POMEGRANATES",
+                    "price": 175,
+                    "veg_nonveg": "VEG",
+                    "id": "2b44196c-dcc0-47fb-8415-53338cfa3e04"
+                },
+                {
+                    "srno": 3,
+                    "name": "CAESAR SALAD WITH CHICKEN",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "857a5156-0b55-4145-b6b8-f144a2d923ec"
+                },
+                {
+                    "srno": 4,
+                    "name": "GREEN SALAD",
+                    "price": 100,
+                    "veg_nonveg": "VEG",
+                    "id": "d84434da-aeea-4e74-900d-9ae355581054"
+                }
+            ]
+        }
+    },
+    {
         "category": "STARTERS",
         "subcategory": {
             "STARTER": [
@@ -222,255 +257,227 @@
                 },
                 {
                     "srno": 18,
+                    "name": "CHILLY CHICKEN FRY",
+                    "price": 215,
+                    "veg_nonveg": "NON",
+                    "id": "a7971800-1866-4ff3-9d76-829259bfd7a4"
+                },
+                {
+                    "srno": 19,
                     "name": "CHICKEN DRY FRY",
                     "price": 220,
                     "veg_nonveg": "NON",
                     "id": "76e6b43c-7895-4f88-a82d-fe3fe2595c7a"
                 },
                 {
-                    "srno": 19,
+                    "srno": 20,
                     "name": "CHICKEN SPRING ROLL",
                     "price": 220,
                     "veg_nonveg": "NON",
                     "id": "3d6684f5-1eb9-4403-8929-173971be8951"
                 },
                 {
-                    "srno": 20,
+                    "srno": 21,
                     "name": "CHICKEN SALT & PEPPER",
                     "price": 235,
                     "veg_nonveg": "NON",
                     "id": "b8b3b806-9fab-48ab-be23-90faad34bbfc"
                 },
                 {
-                    "srno": 21,
+                    "srno": 22,
                     "name": "CHICKEN MANCHURIAN DRY / GRAVY",
                     "price": 220,
                     "veg_nonveg": "NON",
                     "id": "ae8bddb2-737b-4f99-be18-1845078e552e"
                 },
                 {
-                    "srno": 22,
+                    "srno": 23,
                     "name": "PANEER MANCHURIAN",
                     "price": 195,
                     "veg_nonveg": "VEG",
                     "id": "8a36aae1-1f59-4eb8-94ae-ae0f677f7151"
                 },
                 {
-                    "srno": 23,
+                    "srno": 24,
                     "name": "VEG CRISPY",
                     "price": 180,
                     "veg_nonveg": "VEG",
                     "id": "3dcb2e9c-c1ff-457a-ba76-e42681279aa4"
                 },
                 {
-                    "srno": 24,
+                    "srno": 25,
                     "name": "VEG SPRING ROLL",
                     "price": 180,
                     "veg_nonveg": "VEG",
                     "id": "5f815058-632e-4270-bce8-1dabf9142135"
                 },
                 {
-                    "srno": 25,
+                    "srno": 26,
                     "name": "BABY CORN CHILLY DRY / GRAVY",
                     "price": 190,
                     "veg_nonveg": "VEG",
                     "id": "1636f92c-9633-4173-9a4e-5d6f8a951093"
                 },
                 {
-                    "srno": 26,
+                    "srno": 27,
                     "name": "HONEY SESAME POTATO",
                     "price": 190,
                     "veg_nonveg": "VEG",
                     "id": "981dc869-d720-417a-839a-e48eb87d803d"
                 },
                 {
-                    "srno": 27,
+                    "srno": 28,
                     "name": "PANEER 65",
                     "price": 195,
                     "veg_nonveg": "VEG",
                     "id": "67e26dd7-4044-41d3-b474-c5858a06f1ac"
                 },
                 {
-                    "srno": 28,
+                    "srno": 29,
                     "name": "PANEER SALT & PEPPER",
                     "price": 210,
                     "veg_nonveg": "VEG",
                     "id": "8df658b4-6e46-41ef-acc7-9f6043b3e2a6"
                 },
                 {
-                    "srno": 29,
+                    "srno": 30,
                     "name": "VEG MANCHURIAN DRY / GRAVY",
                     "price": 180,
                     "veg_nonveg": "VEG",
                     "id": "468d8096-41f5-4dce-9f87-b3c260c4d73b"
                 },
                 {
-                    "srno": 30,
+                    "srno": 31,
                     "name": "GOBI MANCHURIAN DRY / GRAVY",
                     "price": 170,
                     "veg_nonveg": "VEG",
                     "id": "835fbdd0-5742-4155-8b84-1a978b3a424b"
                 },
                 {
-                    "srno": 31,
+                    "srno": 32,
                     "name": "MUSHROOM CHILLY DRY / GRAVY",
                     "price": 185,
                     "veg_nonveg": "VEG",
                     "id": "e86af33d-b916-43bf-b84f-63dbf5ef382e"
                 },
                 {
-                    "srno": 32,
+                    "srno": 33,
                     "name": "CHICKEN MASALA LOLLYPOP",
                     "price": 200,
                     "veg_nonveg": "NON",
                     "id": "9110ec9b-c714-4172-97cb-fe2caca33599"
                 },
                 {
-                    "srno": 33,
+                    "srno": 34,
                     "name": "FRENCH FRIES",
                     "price": 120,
                     "veg_nonveg": "VEG",
                     "id": "ae8e011e-014d-4ef4-8e1f-d98b829b1f34"
                 },
                 {
-                    "srno": 34,
+                    "srno": 35,
                     "name": "CHEESY FRENCH FRIES",
                     "price": 160,
                     "veg_nonveg": "VEG",
                     "id": "a2cad624-1368-4029-b15d-b24290c4ca2e"
                 },
                 {
-                    "srno": 35,
+                    "srno": 36,
                     "name": "POTATO WEDGES",
                     "price": 130,
                     "veg_nonveg": "VEG",
                     "id": "064b2e06-1c3a-4a6e-b3f8-21c4c73edbf8"
                 },
                 {
-                    "srno": 36,
+                    "srno": 37,
                     "name": "BBQ CHICKEN WINGS",
                     "price": 220,
                     "veg_nonveg": "NON",
                     "id": "8a32ec2c-6464-47a4-a015-3b2928a39089"
                 },
                 {
-                    "srno": 37,
+                    "srno": 38,
                     "name": "CHICKEN NUGGETS",
                     "price": 190,
                     "veg_nonveg": "NON",
                     "id": "c963d9c1-47eb-45c2-9782-390ad465916b"
                 },
                 {
-                    "srno": 38,
+                    "srno": 39,
                     "name": "ONION RINGS",
                     "price": 140,
                     "veg_nonveg": "VEG",
                     "id": "f17ee582-1433-44b7-910c-5e7941a66df6"
                 },
                 {
-                    "srno": 39,
+                    "srno": 40,
                     "name": "CHEESE STUFFED BUTTON MUSHROOMS",
                     "price": 220,
                     "veg_nonveg": "VEG",
                     "id": "18ff639d-e6d7-4aae-9e8d-1ff9fb3ef396"
                 },
                 {
-                    "srno": 40,
+                    "srno": 41,
                     "name": "FALAFEL",
                     "price": 180,
                     "veg_nonveg": "VEG",
                     "id": "b973453a-eceb-4be8-af83-8e589030f654"
                 },
                 {
-                    "srno": 41,
+                    "srno": 42,
                     "name": "CHEESE CORN BALLS",
                     "price": 220,
                     "veg_nonveg": "VEG",
                     "id": "62a25c5d-4b41-4942-8885-d6c2899cd27e"
                 },
                 {
-                    "srno": 42,
+                    "srno": 43,
                     "name": "CHICKEN TAWA FRY",
                     "price": 250,
                     "veg_nonveg": "NON",
                     "id": "170fd0d3-4b1a-4e12-8f1e-6377fc5d2803"
                 },
                 {
-                    "srno": 43,
+                    "srno": 44,
                     "name": "CHICKEN RAWA FRY",
                     "price": 240,
                     "veg_nonveg": "NON",
                     "id": "62d5acb7-78d9-41a8-9223-0b010681adae"
                 },
                 {
-                    "srno": 44,
+                    "srno": 45,
                     "name": "CALAMARI CHILLY FRY",
                     "price": 290,
                     "veg_nonveg": "NON",
                     "id": "ce81e50f-156e-461c-89af-57c41c5364ef"
                 },
                 {
-                    "srno": 45,
+                    "srno": 46,
                     "name": "GOLDEN FRIED PRAWNS",
                     "price": 325,
                     "veg_nonveg": "NON",
                     "id": "f9f81704-91d6-472a-8023-7e0a83ead9f7"
                 },
                 {
-                    "srno": 46,
+                    "srno": 47,
                     "name": "CRISPY SARDINE",
                     "price": 140,
                     "veg_nonveg": "NON",
                     "id": "48d1a9e4-2485-4b22-80ad-04266193681a"
                 },
                 {
-                    "srno": 47,
+                    "srno": 48,
                     "name": "CRISPY CALAMARI",
                     "price": 295,
                     "veg_nonveg": "NON",
                     "id": "7051572a-9d9d-44ff-8bb3-d29174bbf276"
                 },
                 {
-                    "srno": 48,
+                    "srno": 49,
                     "name": "PANEER CHILLY DRY / GRAVY",
                     "price": 195,
                     "veg_nonveg": "VEG",
                     "id": "65999e10-7ab8-4837-8365-d4081126b8a6"
-                }
-            ]
-        }
-    },
-    {
-        "category": "SALAD",
-        "subcategory": {
-            "SALAD": [
-                {
-                    "srno": 1,
-                    "name": "GREEK SALAD",
-                    "price": 170,
-                    "veg_nonveg": "VEG",
-                    "id": "0ce415da-bdb6-41df-b20d-677314214741"
-                },
-                {
-                    "srno": 2,
-                    "name": "MIX SALAD WITH POMEGRANATES",
-                    "price": 175,
-                    "veg_nonveg": "VEG",
-                    "id": "2b44196c-dcc0-47fb-8415-53338cfa3e04"
-                },
-                {
-                    "srno": 3,
-                    "name": "CAESAR SALAD WITH CHICKEN",
-                    "price": 180,
-                    "veg_nonveg": "NON",
-                    "id": "857a5156-0b55-4145-b6b8-f144a2d923ec"
-                },
-                {
-                    "srno": 4,
-                    "name": "GREEN SALAD",
-                    "price": 100,
-                    "veg_nonveg": "VEG",
-                    "id": "d84434da-aeea-4e74-900d-9ae355581054"
                 }
             ]
         }
@@ -844,390 +851,6 @@
         }
     },
     {
-        "category": "CHINESE",
-        "subcategory": {
-            "RICE": [
-                {
-                    "srno": 1,
-                    "name": "VEG COMBINATION FRIED RICE",
-                    "price": 155,
-                    "veg_nonveg": "VEG",
-                    "id": "06e69d35-6952-4749-baca-f0ca04bd1494"
-                },
-                {
-                    "srno": 2,
-                    "name": "VEG FRIED RICE",
-                    "price": 145,
-                    "veg_nonveg": "VEG",
-                    "id": "a662aee6-5c37-4668-9038-5c20a2abd5dd"
-                },
-                {
-                    "srno": 3,
-                    "name": "CHICKEN FRIED RICE",
-                    "price": 170,
-                    "veg_nonveg": "NON",
-                    "id": "c7a6bccc-17cd-4092-8832-0b57c3d0e880"
-                },
-                {
-                    "srno": 4,
-                    "name": "EGG FRIED RICE",
-                    "price": 160,
-                    "veg_nonveg": "NON",
-                    "id": "84fdccf1-843d-4a7a-98c6-8a1b9709a802"
-                },
-                {
-                    "srno": 5,
-                    "name": "VEG SCHEZWAN FRIED RICE",
-                    "price": 155,
-                    "veg_nonveg": "VEG",
-                    "id": "993eb3be-caba-4269-bef3-4cbe043df559"
-                },
-                {
-                    "srno": 6,
-                    "name": "CHICKEN SCHEZWAN FRIED RICE",
-                    "price": 190,
-                    "veg_nonveg": "NON",
-                    "id": "f77e1c35-157b-48a9-aaf4-3d4b92fe5579"
-                },
-                {
-                    "srno": 7,
-                    "name": "CHEFS SPECIAL VEG FRIED RICE",
-                    "price": 185,
-                    "veg_nonveg": "VEG",
-                    "id": "18312135-3bc2-4c14-b506-9fd427a88b23"
-                },
-                {
-                    "srno": 8,
-                    "name": "CHEFS SPECIAL NON-VEG FRIED RICE",
-                    "price": 250,
-                    "veg_nonveg": "NON",
-                    "id": "340e5c23-6a46-40b9-b189-ea266691eafc"
-                },
-                {
-                    "srno": 5,
-                    "name": "MIX SEAFOOD FRIED RICE",
-                    "price": 280,
-                    "veg_nonveg": "NON",
-                    "id": "a68c041e-8596-4a79-833f-cb873fa88cd1"
-                },
-                {
-                    "srno": 6,
-                    "name": "TRIPPLE SCHEZWAN CHICKEN FRIED RICE",
-                    "price": 250,
-                    "veg_nonveg": "NON",
-                    "id": "2829f286-42e8-4732-8c77-6e1e9b45238d"
-                }
-            ],
-            "NOODLES": [
-                {
-                    "srno": 1,
-                    "name": "VEG NOODLES",
-                    "price": 150,
-                    "veg_nonveg": "VEG",
-                    "id": "a6a0d467-a586-4de9-9fc0-dc4b2b746fb3"
-                },
-                {
-                    "srno": 2,
-                    "name": "CHICKEN NOODLES",
-                    "price": 170,
-                    "veg_nonveg": "NON",
-                    "id": "56f24307-e004-4771-8e0b-10af43b93aa1"
-                },
-                {
-                    "srno": 3,
-                    "name": "VEG SCHEZWAN NOODLES",
-                    "price": 160,
-                    "veg_nonveg": "VEG",
-                    "id": "2e4df975-0c37-474f-8678-83fe2c989c05"
-                },
-                {
-                    "srno": 4,
-                    "name": "CHICKEN SCHEZWAN NOODLES",
-                    "price": 180,
-                    "veg_nonveg": "NON",
-                    "id": "0bfdcb0e-9506-4926-b572-c7d2f9c7a8cf"
-                }
-            ]
-        }
-    },
-    {
-        "category": "SIZZLER",
-        "subcategory": {
-            "SIZZLER": [
-                {
-                    "srno": 1,
-                    "name": "PANEER SIZZLER",
-                    "price": 250,
-                    "veg_nonveg": "VEG",
-                    "id": "23c4fe7d-67b4-41c0-a6ac-6ad2250ddd97"
-                },
-                {
-                    "srno": 2,
-                    "name": "CHICKEN SIZZLER",
-                    "price": 300,
-                    "veg_nonveg": "NON",
-                    "id": "88ad3fe4-39da-4f5d-af39-0cce3138b3ce"
-                },
-                {
-                    "srno": 3,
-                    "name": "SEAFOOD SIZZLER",
-                    "price": 350,
-                    "veg_nonveg": "NON",
-                    "id": "de5c8444-8023-44b2-a318-c1ab20d348cc"
-                }
-            ]
-        }
-    },
-    {
-        "category": "PIZZA & PASTA",
-        "subcategory": {
-            "PIZZA": [
-                {
-                    "srno": 1,
-                    "name": "MIX VEG PIZZA (8 INCHES)",
-                    "price": 260,
-                    "veg_nonveg": "VEG",
-                    "id": "eb9fcdca-2e38-4196-8666-6c69065d39c2"
-                },
-                {
-                    "srno": 2,
-                    "name": "CHICKEN PIZZA (8 INCHES)",
-                    "price": 280,
-                    "veg_nonveg": "NON",
-                    "id": "226972f1-6bff-4439-a3c2-3fe4b72ecd35"
-                },
-                {
-                    "srno": 3,
-                    "name": "SEA FOOD PIZZA (8 INCHES)",
-                    "price": 300,
-                    "veg_nonveg": "NON",
-                    "id": "e22ea549-cf27-48c3-9865-d8bb1a44c7e0"
-                },
-                {
-                    "srno": 4,
-                    "name": "CHEFS SPECIAL VEG PIZZA (8 INCHES)",
-                    "price": 275,
-                    "veg_nonveg": "VEG",
-                    "id": "8565fcb1-8b8f-494c-abe8-0aaf377bb1fc"
-                },
-                {
-                    "srno": 5,
-                    "name": "CHEFS SPECIAL NON-VEG PIZZA (8 INCHES)",
-                    "price": 300,
-                    "veg_nonveg": "NON",
-                    "id": "8c940ed5-8f41-4537-89d8-80f4254fca83"
-                },
-                {
-                    "srno": 6,
-                    "name": "MIX VEG PIZZA (6 INCHES)",
-                    "price": 190,
-                    "veg_nonveg": "VEG",
-                    "id": "4b10bbbe-5891-4b44-900f-a848361c5457"
-                },
-                {
-                    "srno": 7,
-                    "name": "CHICKEN PIZZA (6 INCHES)",
-                    "price": 220,
-                    "veg_nonveg": "NON",
-                    "id": "b032080c-fd74-4cc7-b2c7-ec41bf61279d"
-                },
-                {
-                    "srno": 8,
-                    "name": "SEA FOOD PIZZA (6 INCHES)",
-                    "price": 250,
-                    "veg_nonveg": "NON",
-                    "id": "bc88dad9-9328-4011-a4bc-b0e27a4c8172"
-                },
-                {
-                    "srno": 9,
-                    "name": "CHEFS SPECIAL VEG PIZZA (6 INCHES)",
-                    "price": 220,
-                    "veg_nonveg": "VEG",
-                    "id": "6eda82a1-d065-4b49-81b7-3fcaad6d4bd5"
-                },
-                {
-                    "srno": 10,
-                    "name": "CHEFS SPECIAL NON-VEG PIZZA (6 INCHES)",
-                    "price": 240,
-                    "veg_nonveg": "NON",
-                    "id": "b664e41a-94f2-4c05-9525-ed0eda25f65d"
-                },
-                {
-                    "srno": 11,
-                    "name": "PANEER PIZZA (6 INCHES)",
-                    "price": 210,
-                    "veg_nonveg": "VEG",
-                    "id": "d0b2e379-930f-4007-bc03-73b68e69e6fe"
-                },
-                {
-                    "srno": 12,
-                    "name": "PANEER PIZZA (8 INCHES)",
-                    "price": 280,
-                    "veg_nonveg": "VEG",
-                    "id": "7a229948-a3bc-4f3f-8247-9d59c68c9e70"
-                }
-            ],
-            "PASTA": [
-                {
-                    "srno": 1,
-                    "name": "LASAGNA (VEG)",
-                    "price": 250,
-                    "veg_nonveg": "VEG",
-                    "id": "6d296697-6a31-4a30-9f8e-b6147a0b4f49"
-                },
-                {
-                    "srno": 2,
-                    "name": "LASAGNA (CHICKEN)",
-                    "price": 300,
-                    "veg_nonveg": "NON",
-                    "id": "a31fcde0-fdfb-4563-8359-7c7a70087ea2"
-                },
-                {
-                    "srno": 3,
-                    "name": "PASTA (VEG)",
-                    "price": 200,
-                    "veg_nonveg": "VEG",
-                    "id": "0a2210eb-691c-4c0c-aba2-f273d74ef258"
-                },
-                {
-                    "srno": 4,
-                    "name": "PASTA (VEG)",
-                    "price": 200,
-                    "veg_nonveg": "VEG",
-                    "id": "f3caa9f1-719a-4799-8966-8986202eab6b"
-                },
-                {
-                    "srno": 5,
-                    "name": "PASTA (VEG)",
-                    "price": 200,
-                    "veg_nonveg": "VEG",
-                    "id": "c3310cff-cafb-44a6-8910-91d2efbc43cf"
-                },
-                {
-                    "srno": 6,
-                    "name": "PASTA (CHICKEN)",
-                    "price": 250,
-                    "veg_nonveg": "NON",
-                    "id": "90a7dd11-c343-4c18-91af-ddf81f12ee3f"
-                },
-                {
-                    "srno": 7,
-                    "name": "PASTA (CHICKEN)",
-                    "price": 250,
-                    "veg_nonveg": "NON",
-                    "id": "fbe73659-8d18-41aa-99f9-eb939dc5f4a5"
-                },
-                {
-                    "srno": 8,
-                    "name": "PASTA (CHICKEN)",
-                    "price": 250,
-                    "veg_nonveg": "NON",
-                    "id": "2d979cc4-f41b-41c1-aa29-cac598f881b7"
-                },
-                {
-                    "srno": 9,
-                    "name": "SEA FOOD PASTA",
-                    "price": 280,
-                    "veg_nonveg": "NON",
-                    "id": "6560b087-895f-4749-bb63-eb3cf02ba82c"
-                },
-                {
-                    "srno": 10,
-                    "name": "SEA FOOD PASTA",
-                    "price": 280,
-                    "veg_nonveg": "NON",
-                    "id": "af540273-6329-4ef4-898b-d362e4fdff14"
-                },
-                {
-                    "srno": 11,
-                    "name": "SEA FOOD PASTA",
-                    "price": 280,
-                    "veg_nonveg": "NON",
-                    "id": "aff65846-c2d5-4b66-a08b-cf0cfac4a902"
-                }
-            ]
-        }
-    },
-    {
-        "category": "SANDWICH & BURGER",
-        "subcategory": {
-            "SANDWICH": [
-                {
-                    "srno": 1,
-                    "name": "VEG SANDWICH",
-                    "price": 140,
-                    "veg_nonveg": "VEG",
-                    "id": "bf5febc4-5866-46c4-99ea-b58d5329e37e"
-                },
-                {
-                    "srno": 2,
-                    "name": "CHICKEN CLUB SANDWICH",
-                    "price": 180,
-                    "veg_nonveg": "NON",
-                    "id": "1913ee51-9084-4fe6-9602-b9e3b22f5ba5"
-                },
-                {
-                    "srno": 3,
-                    "name": "CHICKEN GRILLED SANDWICH",
-                    "price": 170,
-                    "veg_nonveg": "NON",
-                    "id": "2b7e7916-abb6-42af-a435-8ed12dfa985b"
-                },
-                {
-                    "srno": 4,
-                    "name": "EGG SANDWICH",
-                    "price": 140,
-                    "veg_nonveg": "NON",
-                    "id": "90cf8b45-24ad-4f3e-b4f9-b65a85eb29ce"
-                }
-            ],
-            "BURGER": [
-                {
-                    "srno": 1,
-                    "name": "VEG BURGER",
-                    "price": 190,
-                    "veg_nonveg": "VEG",
-                    "id": "d18076ed-12eb-4196-ae3f-895466f78a48"
-                },
-                {
-                    "srno": 2,
-                    "name": "PANEER BURGER",
-                    "price": 220,
-                    "veg_nonveg": "VEG",
-                    "id": "2d99f968-02a4-4ea2-a55e-a3aa7ba4e2b1"
-                },
-                {
-                    "srno": 3,
-                    "name": "CHICKEN BURGER",
-                    "price": 240,
-                    "veg_nonveg": "NON",
-                    "id": "dab0d203-9c6b-4cba-b77a-db9cf40c842c"
-                },
-                {
-                    "srno": 4,
-                    "name": "CHICKEN SHAWARMA (WITH FRENCH FRIES & SALAD)",
-                    "price": 170,
-                    "veg_nonveg": "NON",
-                    "id": "feab1109-e264-4d04-9826-ee22ed332423"
-                },
-                {
-                    "srno": 5,
-                    "name": "FALAFEL SHAWARMA (WITH FRENCH FRIES & SALAD)",
-                    "price": 140,
-                    "veg_nonveg": "VEG",
-                    "id": "1313c0b8-29b9-4609-bd2e-01958b06e09a"
-                },
-                {
-                    "srno": 6,
-                    "name": "PANEER SHAWARMA (WITH FRENCH FRIES & SALAD)",
-                    "price": 160,
-                    "veg_nonveg": "VEG",
-                    "id": "42bae6ed-62a9-4d76-bda1-c50eff0a36c9"
-                }
-            ]
-        }
-    },
-    {
         "category": "GOAN & SEAFOOD",
         "subcategory": {
             "GRAVY": [
@@ -1421,17 +1044,259 @@
                 },
                 {
                     "srno": 18,
-                    "name": "CHILLY CHICKEN FRY",
-                    "price": 215,
-                    "veg_nonveg": "NON",
-                    "id": "a7971800-1866-4ff3-9d76-829259bfd7a4"
-                },
-                {
-                    "srno": 19,
                     "name": "PRAWNS CHILLY FRY",
                     "price": 300,
                     "veg_nonveg": "NON",
                     "id": "1793ca3a-80d7-4cfb-872f-e095a49addfb"
+                }
+            ]
+        }
+    },
+    {
+        "category": "SANDWICH & BURGER",
+        "subcategory": {
+            "SANDWICH": [
+                {
+                    "srno": 1,
+                    "name": "VEG SANDWICH",
+                    "price": 140,
+                    "veg_nonveg": "VEG",
+                    "id": "bf5febc4-5866-46c4-99ea-b58d5329e37e"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN CLUB SANDWICH",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "1913ee51-9084-4fe6-9602-b9e3b22f5ba5"
+                },
+                {
+                    "srno": 3,
+                    "name": "CHICKEN GRILLED SANDWICH",
+                    "price": 170,
+                    "veg_nonveg": "NON",
+                    "id": "2b7e7916-abb6-42af-a435-8ed12dfa985b"
+                },
+                {
+                    "srno": 4,
+                    "name": "EGG SANDWICH",
+                    "price": 140,
+                    "veg_nonveg": "NON",
+                    "id": "90cf8b45-24ad-4f3e-b4f9-b65a85eb29ce"
+                }
+            ],
+            "BURGER": [
+                {
+                    "srno": 1,
+                    "name": "VEG BURGER",
+                    "price": 190,
+                    "veg_nonveg": "VEG",
+                    "id": "d18076ed-12eb-4196-ae3f-895466f78a48"
+                },
+                {
+                    "srno": 2,
+                    "name": "PANEER BURGER",
+                    "price": 220,
+                    "veg_nonveg": "VEG",
+                    "id": "2d99f968-02a4-4ea2-a55e-a3aa7ba4e2b1"
+                },
+                {
+                    "srno": 3,
+                    "name": "CHICKEN BURGER",
+                    "price": 240,
+                    "veg_nonveg": "NON",
+                    "id": "dab0d203-9c6b-4cba-b77a-db9cf40c842c"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN SHAWARMA (WITH FRENCH FRIES & SALAD)",
+                    "price": 170,
+                    "veg_nonveg": "NON",
+                    "id": "feab1109-e264-4d04-9826-ee22ed332423"
+                },
+                {
+                    "srno": 5,
+                    "name": "FALAFEL SHAWARMA (WITH FRENCH FRIES & SALAD)",
+                    "price": 140,
+                    "veg_nonveg": "VEG",
+                    "id": "1313c0b8-29b9-4609-bd2e-01958b06e09a"
+                },
+                {
+                    "srno": 6,
+                    "name": "PANEER SHAWARMA (WITH FRENCH FRIES & SALAD)",
+                    "price": 160,
+                    "veg_nonveg": "VEG",
+                    "id": "42bae6ed-62a9-4d76-bda1-c50eff0a36c9"
+                }
+            ]
+        }
+    },
+    {
+        "category": "PIZZA & PASTA",
+        "subcategory": {
+            "PIZZA": [
+                {
+                    "srno": 1,
+                    "name": "MIX VEG PIZZA (8 INCHES)",
+                    "price": 260,
+                    "veg_nonveg": "VEG",
+                    "id": "eb9fcdca-2e38-4196-8666-6c69065d39c2"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN PIZZA (8 INCHES)",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "226972f1-6bff-4439-a3c2-3fe4b72ecd35"
+                },
+                {
+                    "srno": 3,
+                    "name": "SEA FOOD PIZZA (8 INCHES)",
+                    "price": 300,
+                    "veg_nonveg": "NON",
+                    "id": "e22ea549-cf27-48c3-9865-d8bb1a44c7e0"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHEFS SPECIAL VEG PIZZA (8 INCHES)",
+                    "price": 275,
+                    "veg_nonveg": "VEG",
+                    "id": "8565fcb1-8b8f-494c-abe8-0aaf377bb1fc"
+                },
+                {
+                    "srno": 5,
+                    "name": "CHEFS SPECIAL NON-VEG PIZZA (8 INCHES)",
+                    "price": 300,
+                    "veg_nonveg": "NON",
+                    "id": "8c940ed5-8f41-4537-89d8-80f4254fca83"
+                },
+                {
+                    "srno": 6,
+                    "name": "MIX VEG PIZZA (6 INCHES)",
+                    "price": 190,
+                    "veg_nonveg": "VEG",
+                    "id": "4b10bbbe-5891-4b44-900f-a848361c5457"
+                },
+                {
+                    "srno": 7,
+                    "name": "CHICKEN PIZZA (6 INCHES)",
+                    "price": 220,
+                    "veg_nonveg": "NON",
+                    "id": "b032080c-fd74-4cc7-b2c7-ec41bf61279d"
+                },
+                {
+                    "srno": 8,
+                    "name": "SEA FOOD PIZZA (6 INCHES)",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "bc88dad9-9328-4011-a4bc-b0e27a4c8172"
+                },
+                {
+                    "srno": 9,
+                    "name": "CHEFS SPECIAL VEG PIZZA (6 INCHES)",
+                    "price": 220,
+                    "veg_nonveg": "VEG",
+                    "id": "6eda82a1-d065-4b49-81b7-3fcaad6d4bd5"
+                },
+                {
+                    "srno": 10,
+                    "name": "CHEFS SPECIAL NON-VEG PIZZA (6 INCHES)",
+                    "price": 240,
+                    "veg_nonveg": "NON",
+                    "id": "b664e41a-94f2-4c05-9525-ed0eda25f65d"
+                },
+                {
+                    "srno": 11,
+                    "name": "PANEER PIZZA (6 INCHES)",
+                    "price": 210,
+                    "veg_nonveg": "VEG",
+                    "id": "d0b2e379-930f-4007-bc03-73b68e69e6fe"
+                },
+                {
+                    "srno": 12,
+                    "name": "PANEER PIZZA (8 INCHES)",
+                    "price": 280,
+                    "veg_nonveg": "VEG",
+                    "id": "7a229948-a3bc-4f3f-8247-9d59c68c9e70"
+                }
+            ],
+            "PASTA": [
+                {
+                    "srno": 1,
+                    "name": "LASAGNA (VEG)",
+                    "price": 250,
+                    "veg_nonveg": "VEG",
+                    "id": "6d296697-6a31-4a30-9f8e-b6147a0b4f49"
+                },
+                {
+                    "srno": 2,
+                    "name": "LASAGNA (CHICKEN)",
+                    "price": 300,
+                    "veg_nonveg": "NON",
+                    "id": "a31fcde0-fdfb-4563-8359-7c7a70087ea2"
+                },
+                {
+                    "srno": 3,
+                    "name": "PASTA (VEG)",
+                    "price": 200,
+                    "veg_nonveg": "VEG",
+                    "id": "0a2210eb-691c-4c0c-aba2-f273d74ef258"
+                },
+                {
+                    "srno": 4,
+                    "name": "PASTA (VEG)",
+                    "price": 200,
+                    "veg_nonveg": "VEG",
+                    "id": "f3caa9f1-719a-4799-8966-8986202eab6b"
+                },
+                {
+                    "srno": 5,
+                    "name": "PASTA (VEG)",
+                    "price": 200,
+                    "veg_nonveg": "VEG",
+                    "id": "c3310cff-cafb-44a6-8910-91d2efbc43cf"
+                },
+                {
+                    "srno": 6,
+                    "name": "PASTA (CHICKEN)",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "90a7dd11-c343-4c18-91af-ddf81f12ee3f"
+                },
+                {
+                    "srno": 7,
+                    "name": "PASTA (CHICKEN)",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "fbe73659-8d18-41aa-99f9-eb939dc5f4a5"
+                },
+                {
+                    "srno": 8,
+                    "name": "PASTA (CHICKEN)",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "2d979cc4-f41b-41c1-aa29-cac598f881b7"
+                },
+                {
+                    "srno": 9,
+                    "name": "SEA FOOD PASTA",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "6560b087-895f-4749-bb63-eb3cf02ba82c"
+                },
+                {
+                    "srno": 10,
+                    "name": "SEA FOOD PASTA",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "af540273-6329-4ef4-898b-d362e4fdff14"
+                },
+                {
+                    "srno": 11,
+                    "name": "SEA FOOD PASTA",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "aff65846-c2d5-4b66-a08b-cf0cfac4a902"
                 }
             ]
         }
@@ -1681,6 +1546,141 @@
                     "price": 380,
                     "veg_nonveg": "NON",
                     "id": "7897bed3-9f66-4071-9479-ed464cd30df7"
+                }
+            ]
+        }
+    },
+    {
+        "category": "CHINESE",
+        "subcategory": {
+            "RICE": [
+                {
+                    "srno": 1,
+                    "name": "VEG COMBINATION FRIED RICE",
+                    "price": 155,
+                    "veg_nonveg": "VEG",
+                    "id": "06e69d35-6952-4749-baca-f0ca04bd1494"
+                },
+                {
+                    "srno": 2,
+                    "name": "VEG FRIED RICE",
+                    "price": 145,
+                    "veg_nonveg": "VEG",
+                    "id": "a662aee6-5c37-4668-9038-5c20a2abd5dd"
+                },
+                {
+                    "srno": 3,
+                    "name": "CHICKEN FRIED RICE",
+                    "price": 170,
+                    "veg_nonveg": "NON",
+                    "id": "c7a6bccc-17cd-4092-8832-0b57c3d0e880"
+                },
+                {
+                    "srno": 4,
+                    "name": "EGG FRIED RICE",
+                    "price": 160,
+                    "veg_nonveg": "NON",
+                    "id": "84fdccf1-843d-4a7a-98c6-8a1b9709a802"
+                },
+                {
+                    "srno": 5,
+                    "name": "VEG SCHEZWAN FRIED RICE",
+                    "price": 155,
+                    "veg_nonveg": "VEG",
+                    "id": "993eb3be-caba-4269-bef3-4cbe043df559"
+                },
+                {
+                    "srno": 6,
+                    "name": "CHICKEN SCHEZWAN FRIED RICE",
+                    "price": 190,
+                    "veg_nonveg": "NON",
+                    "id": "f77e1c35-157b-48a9-aaf4-3d4b92fe5579"
+                },
+                {
+                    "srno": 7,
+                    "name": "CHEFS SPECIAL VEG FRIED RICE",
+                    "price": 185,
+                    "veg_nonveg": "VEG",
+                    "id": "18312135-3bc2-4c14-b506-9fd427a88b23"
+                },
+                {
+                    "srno": 8,
+                    "name": "CHEFS SPECIAL NON-VEG FRIED RICE",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "340e5c23-6a46-40b9-b189-ea266691eafc"
+                },
+                {
+                    "srno": 5,
+                    "name": "MIX SEAFOOD FRIED RICE",
+                    "price": 280,
+                    "veg_nonveg": "NON",
+                    "id": "a68c041e-8596-4a79-833f-cb873fa88cd1"
+                },
+                {
+                    "srno": 6,
+                    "name": "TRIPPLE SCHEZWAN CHICKEN FRIED RICE",
+                    "price": 250,
+                    "veg_nonveg": "NON",
+                    "id": "2829f286-42e8-4732-8c77-6e1e9b45238d"
+                }
+            ],
+            "NOODLES": [
+                {
+                    "srno": 1,
+                    "name": "VEG NOODLES",
+                    "price": 150,
+                    "veg_nonveg": "VEG",
+                    "id": "a6a0d467-a586-4de9-9fc0-dc4b2b746fb3"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN NOODLES",
+                    "price": 170,
+                    "veg_nonveg": "NON",
+                    "id": "56f24307-e004-4771-8e0b-10af43b93aa1"
+                },
+                {
+                    "srno": 3,
+                    "name": "VEG SCHEZWAN NOODLES",
+                    "price": 160,
+                    "veg_nonveg": "VEG",
+                    "id": "2e4df975-0c37-474f-8678-83fe2c989c05"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN SCHEZWAN NOODLES",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "0bfdcb0e-9506-4926-b572-c7d2f9c7a8cf"
+                }
+            ]
+        }
+    },
+    {
+        "category": "SIZZLER",
+        "subcategory": {
+            "SIZZLER": [
+                {
+                    "srno": 1,
+                    "name": "PANEER SIZZLER",
+                    "price": 250,
+                    "veg_nonveg": "VEG",
+                    "id": "23c4fe7d-67b4-41c0-a6ac-6ad2250ddd97"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN SIZZLER",
+                    "price": 300,
+                    "veg_nonveg": "NON",
+                    "id": "88ad3fe4-39da-4f5d-af39-0cce3138b3ce"
+                },
+                {
+                    "srno": 3,
+                    "name": "SEAFOOD SIZZLER",
+                    "price": 350,
+                    "veg_nonveg": "NON",
+                    "id": "de5c8444-8023-44b2-a318-c1ab20d348cc"
                 }
             ]
         }
@@ -2706,6 +2706,13 @@
                     "id": "c79f5eaf-6119-44c4-b1f7-4939a8cd7dea"
                 },
                 {
+                    "srno": 1,
+                    "name": "30ML JIN",
+                    "price": 60,
+                    "veg_nonveg": "NNN",
+                    "id": "10b95759-ecfe-4beb-975b-dddbbc9a4b0f"
+                },
+                {
                     "srno": 2,
                     "name": "60ML JIN",
                     "price": 100,
@@ -2718,15 +2725,6 @@
                     "price": 160,
                     "veg_nonveg": "NNN",
                     "id": "1fd07953-c598-4f81-9fe3-9bf72ef34f6f"
-                }
-            ],
-            "VODKA ": [
-                {
-                    "srno": 1,
-                    "name": "30ML JIN",
-                    "price": 60,
-                    "veg_nonveg": "NNN",
-                    "id": "10b95759-ecfe-4beb-975b-dddbbc9a4b0f"
                 }
             ]
         }

@@ -12,10 +12,10 @@ function MenuSection({ title, items, itemRefs }) {
             <div className="relative flex items-center mr-2 w-full">
               <div className="dish-type-icons">
                 {item.veg_nonveg === 'VEG' && (
-                  <img className='mx-1 h-2 w-2' src={VegIcon} alt="Veg" />
+                  <img className='mr-1 h-2 w-2' src={VegIcon} alt="Veg" />
                 )}
                 {item.veg_nonveg === 'NON' && (
-                  <img className='mx-1 h-2 w-2' src={NonVegIcon} alt="Non-Veg" />
+                  <img className='mr-1 h-2 w-2' src={NonVegIcon} alt="Non-Veg" />
                 )}
               </div>
               <h1 className="font-semibold text-[14px] break-words w-4/6">{item.name}</h1>

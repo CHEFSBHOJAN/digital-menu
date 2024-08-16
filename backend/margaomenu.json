@@ -98,6 +98,41 @@
         }
     },
     {
+        "category": "SALAD",
+        "subcategory": {
+            "SALAD": [
+                {
+                    "srno": 1,
+                    "name": "GREEK SALAD",
+                    "price": 170,
+                    "veg_nonveg": "VEG",
+                    "id": "2a48a3a9-29dc-455a-a0ee-092d6c78e149"
+                },
+                {
+                    "srno": 2,
+                    "name": "MIX SALAD WITH POMEGRANATES",
+                    "price": 175,
+                    "veg_nonveg": "VEG",
+                    "id": "16b366ff-70ac-44e7-b495-6a80e615040f"
+                },
+                {
+                    "srno": 3,
+                    "name": "CAESAR SALAD WITH CHICKEN",
+                    "price": 180,
+                    "veg_nonveg": "NON",
+                    "id": "5f2d16d8-88d4-499d-bb89-76ec286b90c0"
+                },
+                {
+                    "srno": 4,
+                    "name": "GREEN SALAD",
+                    "price": 100,
+                    "veg_nonveg": "VEG",
+                    "id": "d906b2dc-6e9f-427f-ae81-0cd8f548ed00"
+                }
+            ]
+        }
+    },
+    {
         "category": "STARTERS",
         "subcategory": {
             "STARTER": [
@@ -436,41 +471,6 @@
                     "price": 195,
                     "veg_nonveg": "VEG",
                     "id": "1e8fd9ce-9735-4246-baf9-037176dfcc84"
-                }
-            ]
-        }
-    },
-    {
-        "category": "SALAD",
-        "subcategory": {
-            "SALAD": [
-                {
-                    "srno": 1,
-                    "name": "GREEK SALAD",
-                    "price": 170,
-                    "veg_nonveg": "VEG",
-                    "id": "2a48a3a9-29dc-455a-a0ee-092d6c78e149"
-                },
-                {
-                    "srno": 2,
-                    "name": "MIX SALAD WITH POMEGRANATES",
-                    "price": 175,
-                    "veg_nonveg": "VEG",
-                    "id": "16b366ff-70ac-44e7-b495-6a80e615040f"
-                },
-                {
-                    "srno": 3,
-                    "name": "CAESAR SALAD WITH CHICKEN",
-                    "price": 180,
-                    "veg_nonveg": "NON",
-                    "id": "5f2d16d8-88d4-499d-bb89-76ec286b90c0"
-                },
-                {
-                    "srno": 4,
-                    "name": "GREEN SALAD",
-                    "price": 100,
-                    "veg_nonveg": "VEG",
-                    "id": "d906b2dc-6e9f-427f-ae81-0cd8f548ed00"
                 }
             ]
         }
