@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #FFC107;
+    /* Amber-500 */
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-switcher button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.menu-switcher button:hover {
+    background-color: #ddd;
+}
+
+.menu-container {
+    padding: 2rem;
+}
+
+h2#menu-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.category {
+    margin-bottom: 1.5rem;
+}
+
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffecb3;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+.category-header input {
+    font-size: 1.25rem;
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+
+.category-header button {
+    background-color: #f44336;
+    /* Red */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.category-header button:hover {
+    background-color: #d32f2f;
+}
+
+.subcategory {
+    margin-bottom: 1rem;
+    /* Space between subcategories */
+}
+
+.subcategory-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3f2fd;
+    /* Light Blue */
+    padding: 0.5rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subcategory-header input {
+    font-size: 1.1rem;
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+
+.subcategory-header button {
+    background-color: #f44336;
+    /* Red */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.subcategory-header button:hover {
+    background-color: #d32f2f;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+li {
+    font-size: 14px;
+    /* Decrease font size */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0;
+    /* Reduce padding */
+    border-bottom: 1px solid #ddd;
+}
+
+li input[type="text"] {
+    font-size: 0.9rem;
+    /* Slightly smaller font size */
+    border: none;
+    background: none;
+    padding: 0.25rem;
+    /* Reduce padding */
+    width: 40%;
+}
+
+li button {
+    background-color: #f44336;
+    /* Red */
+    color: #fff;
+    border: none;
+    padding: 0.25rem 0.75rem;
+    /* Reduce padding */
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+li button:hover {
+    background-color: #d32f2f;
+}
+
+#add-category {
+    background-color: #4caf50;
+    /* Green */
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    /* Reduce padding */
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    /* Adjust font size */
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+#add-category:hover {
+    background-color: #388e3c;
+}
+
+/* Popup Overlay */
+.popup-overlay {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    z-index: 1000;
+    /* High z-index to ensure it is on top */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popup Content */
+/* Popup Styles */
+.popup {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    max-width: 600px;
+    /* Maximum width */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form Styles */
+#popup-form {
+    margin-bottom: 20px;
+}
+
+#popup-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#popup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}

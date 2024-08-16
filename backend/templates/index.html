@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Management System</title>
+    <link rel="icon" href="/static/favicon.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="company-name">CHEFS BHOJAN</div>
+        <div class="menu-switcher">
+            <button id="margaoMenuBtn">Margao Menu</button>
+            <button id="pondaMenuBtn">Ponda Menu</button>
+        </div>
+    </nav>
+
+    <div class="menu-container">
+        <h2 id="menu-title">Margao Menu</h2>
+        <div id="menu-items">
+            <!-- Menu items will be injected here by JavaScript -->
+        </div>
+    </div>
+
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2 id="popup-title">Add New Item</h2>
+            <div id="popup-body">
+                <!-- Popup content will be injected here by JavaScript -->
+            </div>
+            <button onclick="submitPopup()">Submit</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"></script>
+    <script>
+
+        const socket = io()
+        document.getElementById('margaoMenuBtn').addEventListener('click', function () {
+            displayMenu('margao');
+        });
+
+        document.getElementById('pondaMenuBtn').addEventListener('click', function () {
+            displayMenu('ponda');
+        });
+
+        function displayMenu(menuType) {
+            fetch(`/api/getmenu${menuType}`, { method: 'GET' })
+                .then(response => response.json())
+                .then(data => {
+                    const menuData = data.dishes;
+                    const menuContainer = document.getElementById('menu-items');
+                    const title = document.getElementById('menu-title');
+                    title.textContent = `${menuType.charAt(0).toUpperCase() + menuType.slice(1)} Menu`;
+
+                    // Clear previous menu
+                    menuContainer.innerHTML = '';
+
+                    menuData.forEach(category => {
+                        const categoryDiv = document.createElement('div');
+                        categoryDiv.className = 'category';
+
+                        const categoryHeader = document.createElement('div');
+                        categoryHeader.className = 'category-header';
+
+                        const categoryName = document.createElement('input');
+                        categoryName.type = 'text';
+                        categoryName.value = category.category;
+                        categoryName.addEventListener('change', () => updateCategoryName(category.category, categoryName.value, menuType));
+
+                        const deleteCategoryBtn = document.createElement('button');
+                        deleteCategoryBtn.textContent = 'Delete Category';
+                        deleteCategoryBtn.addEventListener('click', () => deleteCategory(category.category, menuType));
+
+                        const addSubcategoryBtn = document.createElement('button');
+                        addSubcategoryBtn.textContent = 'Add Subcategory';
+                        addSubcategoryBtn.addEventListener('click', () => addSubcategory(category.category, menuType));
+
+                        categoryHeader.appendChild(addSubcategoryBtn);
+                        categoryHeader.appendChild(categoryName);
+                        categoryHeader.appendChild(deleteCategoryBtn);
+
+                        const subcategoriesDiv = document.createElement('div');
+                        for (const [subcategory, items] of Object.entries(category.subcategory)) {
+                            const subcategoryDiv = document.createElement('div');
+                            subcategoryDiv.className = 'subcategory';
+
+                            const subcategoryHeader = document.createElement('div');
+                            subcategoryHeader.className = 'subcategory-header';
+
+                            const subcategoryName = document.createElement('input');
+                            subcategoryName.type = 'text';
+                            subcategoryName.value = subcategory;
+                            subcategoryName.addEventListener('change', () => updateSubcategoryName(category.category, subcategory, subcategoryName.value, menuType));
+
+                            const deleteSubcategoryBtn = document.createElement('button');
+                            deleteSubcategoryBtn.textContent = 'Delete Subcategory';
+                            deleteSubcategoryBtn.addEventListener('click', () => deleteSubcategory(category.category, subcategory, menuType));
+
+                            subcategoryHeader.appendChild(subcategoryName);
+                            subcategoryHeader.appendChild(deleteSubcategoryBtn);
+
+                            const itemsList = document.createElement('ul');
+                            items.forEach(item => {
+                                const itemLi = document.createElement('li');
+
+                                const itemName = document.createElement('input');
+                                itemName.type = 'text';
+                                itemName.value = item.name;
+                                itemName.addEventListener('change', () => updateItemName(category.category, subcategory, item.name, itemName.value, menuType));
+
+                                const itemPrice = document.createElement('input');
+                                itemPrice.type = 'text';
+                                itemPrice.value = item.price;
+                                itemPrice.addEventListener('change', () => updateItemPrice(category.category, subcategory, item.name, itemPrice.value, menuType));
+
+                                const itemType = document.createElement('input');
+                                itemType.type = 'text';
+                                itemType.value = item.veg_nonveg;
+                                itemType.addEventListener('change', () => updateItemType(category.category, subcategory, item.name, itemType.value, menuType))
+
+                                const deleteItemBtn = document.createElement('button');
+                                deleteItemBtn.textContent = 'Delete Item';
+                                deleteItemBtn.addEventListener('click', () => deleteItem(category.category, subcategory, item.name, menuType));
+
+                                itemLi.appendChild(itemName);
+                                itemLi.appendChild(itemPrice);
+                                itemLi.appendChild(itemType);
+                                itemLi.appendChild(deleteItemBtn);
+                                itemsList.appendChild(itemLi);
+                            });
+
+                            const addItemBtn = document.createElement('button');
+                            addItemBtn.textContent = 'Add Item';
+                            addItemBtn.addEventListener('click', () => addItem(category.category, subcategory, menuType));
+                            
+                            subcategoryDiv.appendChild(subcategoryHeader);
+                            subcategoryDiv.appendChild(itemsList);
+                            subcategoryDiv.appendChild(addItemBtn);
+                            subcategoriesDiv.appendChild(subcategoryDiv);
+                        }
+
+                        const addCatbtn = document.createElement('button')
+                        addCatbtn.textContent = 'Add Category'
+                        addCatbtn.id = 'add-category'
+                        addCatbtn.addEventListener('click', () => addCategory(menuType))
+
+                        categoryDiv.appendChild(addCatbtn)
+                        categoryDiv.appendChild(categoryHeader);
+                        categoryDiv.appendChild(subcategoriesDiv);
+                        menuContainer.appendChild(categoryDiv);
+                    });
+                })
+                .catch(error => console.error('Error fetching menu data:', error));
+        }
+
+        function updateCategoryName(oldName, newName, menuType) {
+            fetch('/api/update_category_name', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ oldName, newName, menuType })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data.message))
+            .catch(error => console.error('Error updating category name:', error));
+        }
+
+        function updateSubcategoryName(categoryName, oldSubcategoryName, newSubcategoryName, menuType) {
+            fetch('/api/update_subcategory_name', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ categoryName, oldSubcategoryName, newSubcategoryName, menuType })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data.message))
+            .catch(error => console.error('Error updating subcategory name:', error));
+        }
+
+        function updateItemName(categoryName, subcategoryName, oldItemName, newItemName, menuType) {
+            fetch('/api/update_item_name', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ categoryName, subcategoryName, oldItemName, newItemName, menuType })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data.message))
+            .catch(error => console.error('Error updating item name:', error));
+        }
+
+        function updateItemPrice(categoryName, subcategoryName, itemName, newPrice, menuType) {
+            fetch('/api/update_item_price', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ categoryName, subcategoryName, itemName, newPrice, menuType })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data.message))
+            .catch(error => console.error('Error updating item price:', error));
+        }
+
+        function updateItemPType(categoryName, subcategoryName, itemName, newType, menuType) {
+            fetch('/api/update_item_type', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ categoryName, subcategoryName, itemName, newType, menuType })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data.message))
+            .catch(error => console.error('Error updating item Type:', error));
+        }
+
+        function addItem(categoryName,subcategoryName, menuType) {
+            const itemName = prompt('Enter item name:');
+            const itemPrice = prompt('Enter item price:');
+            const itemType = prompt('Enter if VEG/NON:'); // Function to get the selected item type
+            const itemId = generateUniqueId(); // Function to generate a unique ID
+
+            const priceAsInt = parseInt(itemPrice, 10)
+
+            if (itemName && itemPrice) {
+                fetch('/api/add_item', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        categoryName,
+                        subcategoryName,
+                        newItem: {
+                            name: itemName,
+                            price: priceAsInt,
+                            veg_nonveg: itemType,
+                            id: itemId
+                        },
+                        menuType
+                    })
+                })
+                .then(response => response.json())
+                .then(data => console.log(data.message))
+                .catch(error => alert('Error adding item:', error));
+            } else {
+                alert('Please provide both item name and price.');
+            }
+        }
+
+        function generateUniqueId() {
+            return 'item-' + Math.random().toString(36).substr(2, 9);
+        }
+
+        function deleteItem(categoryName, subcategoryName, itemName, menuType) {
+            fetch('/api/delete_item', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ categoryName, subcategoryName, itemName, menuType })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data.message))
+            .catch(error => alert('Error deleting item:', error));
+        }
+
+        function addCategory(menuType) {
+            const categoryName = prompt('Enter new category name:');
+            fetch('/api/add_category', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ categoryName, menuType })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data.message))
+            .catch(error => alert('Error adding category:', error));
+        }
+
+        function deleteCategory(categoryName, menuType) {
+            fetch('/api/delete_category', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ categoryName, menuType })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data.message))
+            .catch(error => alert('Error deleting category:', error));
+        }
+
+        function addSubcategory(categoryName, menuType) {
+            const subcategoryName = prompt('Enter new subcategory name:');
+            if (subcategoryName) {
+                fetch('/api/add_subcategory', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ categoryName, subcategoryName, menuType })
+                })
+                .then(response => response.json())
+                .then(data => displayMenu(menuType))
+                .catch(error => alert('Error adding subcategory:', error));
+            }
+        }
+
+        function deleteSubcategory(categoryName, subcategoryName, menuType) {
+            fetch('/api/delete_subcategory', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ categoryName, subcategoryName, menuType })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data.message))
+            .catch(error => alert('Error deleting subcategory:', error));
+        }
+
+        socket.on('menu_update', function (data) {
+            if (data.menuType === 'margao') {
+                displayMenu('margao');
+            } else if (data.menuType === 'ponda') {
+                displayMenu('ponda');
+            }
+        })
+
+        displayMenu('margao')
+    </script>
+</body>
+
+</html>
