@@ -4,6 +4,7 @@ import Header from "./Header"
 import FoodSearch from "./FoodSearch"
 import CategoryTabs from "./CategoryTabs"
 import MenuSection from "./MenuSection"
+import SpecialDishes from "./Special"
 
 function MyComponent({ outlet }) {
   const [menu, setMenu] = useState([])
@@ -58,6 +59,12 @@ function MyComponent({ outlet }) {
     }
   }
 
+  const todaysSpecialItems = menu
+    .filter(item => item.category.toLowerCase() === "special")
+    .flatMap(item => item.subcategory["TODAYS SPECIAL"] || [])
+
+  console.log(todaysSpecialItems)
+
   const filteredMenu = menu.find(
     (item) => item.category.toLowerCase() === activeCategory.toLowerCase()
   )
@@ -72,6 +79,7 @@ function MyComponent({ outlet }) {
         <span className="text-black">Your Favorite </span>Food
       </h1>
       <FoodSearch menu={menu} onSelectItem={handleItemSelect} />
+      <SpecialDishes specialDishes={todaysSpecialItems} />
       <CategoryTabs
         categories={menu.map((item) => item.category)}
         activeCategory={activeCategory}

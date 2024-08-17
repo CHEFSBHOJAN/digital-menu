@@ -261,3 +261,40 @@ li button:hover {
     padding: 10px;
     margin-bottom: 10px;
 }
+
+
+/* Loader Styles */
+#loader {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Positioned relative to the viewport */
+    z-index: 1000;
+    /* Ensures the loader is above other content */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #f3f3f3;
+    /* Light grey border */
+    border-radius: 50%;
+    /* Rounded shape */
+    border-top: 8px solid #3498db;
+    /* Blue color for the top border */
+    width: 60px;
+    /* Loader width */
+    height: 60px;
+    /* Loader height */
+    animation: spin 1.2s linear infinite;
+    /* Animation for spinning */
+}
+
+/* Animation for spinning */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
