@@ -147,6 +147,25 @@ li input[type="text"] {
     width: 40%;
 }
 
+.ul-table {
+    width: 100%;
+    display: flexbox;
+}
+
+.li-table {
+    width: 50%;
+    /* 3 items in a row */
+    margin: 10px;
+}
+
+.bottom-border {
+    border-bottom: solid #000 2px;
+}
+
+.li-table input[type="text"] {
+    width: 90%;
+}
+
 li button {
     background-color: #f44336;
     /* Red */
