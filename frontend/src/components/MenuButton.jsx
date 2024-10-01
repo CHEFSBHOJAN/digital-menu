@@ -6,8 +6,8 @@ function MenuButton({ outlet }) {
   const navigate = useNavigate()
 
   const GotoMenu = () => {
-    if (outlet === "Margao") {
-      navigate('/margaomenu')
+    if (outlet === "Dhavali") {
+      navigate('/dhavalimenu')
     }
     if (outlet === "Ponda") {
       navigate('/pondamenu')

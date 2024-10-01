@@ -15,7 +15,7 @@ function MyComponent({ outlet }) {
   useEffect(() => {
     setLoading(true)
     let url
-    if (outlet === "Margao") {
+    if (outlet === "Dhavali") {
       url = "https://digital-menu-6maa.onrender.com/api/getmenumargao"
     }
     else {

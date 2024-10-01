@@ -9,9 +9,9 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/margao" element={<ChefsBhojan outlet={"Margao"} />} />
+        <Route path="/dhavali" element={<ChefsBhojan outlet={"Dhavali"} />} />
         <Route path="/ponda" element={<ChefsBhojan outlet={"Ponda"} />} />
-        <Route path="/margaomenu" element={<MyComponent outlet={"Margao"} />} />
+        <Route path="/dhavalimenu" element={<MyComponent outlet={"Dhavali"} />} />
         <Route path="pondamenu" element={<MyComponent outlet={"Ponda"} />} />
       </Routes>
     </>
